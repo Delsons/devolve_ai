@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34BEFAA81D872A4D0045E5DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BEFAA71D872A4D0045E5DE /* AppDelegate.swift */; };
+		34BEFAAA1D872A4D0045E5DE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BEFAA91D872A4D0045E5DE /* FirstViewController.swift */; };
+		34BEFAAC1D872A4D0045E5DE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BEFAAB1D872A4D0045E5DE /* SecondViewController.swift */; };
+		34BEFAAF1D872A4D0045E5DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34BEFAAD1D872A4D0045E5DE /* Main.storyboard */; };
+		34BEFAB11D872A4D0045E5DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BEFAB01D872A4D0045E5DE /* Assets.xcassets */; };
+		34BEFAB41D872A4D0045E5DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34BEFAB21D872A4D0045E5DE /* LaunchScreen.storyboard */; };
+		34BEFABF1D872A4D0045E5DE /* Devolve_AiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BEFABE1D872A4D0045E5DE /* Devolve_AiTests.swift */; };
+		34BEFACA1D872A4D0045E5DE /* Devolve_AiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BEFAC91D872A4D0045E5DE /* Devolve_AiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34BEFABB1D872A4D0045E5DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34BEFA9C1D872A4D0045E5DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34BEFAA31D872A4D0045E5DE;
+			remoteInfo = Devolve_Ai;
+		};
+		34BEFAC61D872A4D0045E5DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34BEFA9C1D872A4D0045E5DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34BEFAA31D872A4D0045E5DE;
+			remoteInfo = Devolve_Ai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34BEFAA41D872A4D0045E5DE /* Devolve_Ai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devolve_Ai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BEFAA71D872A4D0045E5DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34BEFAA91D872A4D0045E5DE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		34BEFAAB1D872A4D0045E5DE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		34BEFAAE1D872A4D0045E5DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34BEFAB01D872A4D0045E5DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34BEFAB31D872A4D0045E5DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34BEFAB51D872A4D0045E5DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34BEFABA1D872A4D0045E5DE /* Devolve_AiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Devolve_AiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BEFABE1D872A4D0045E5DE /* Devolve_AiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devolve_AiTests.swift; sourceTree = "<group>"; };
+		34BEFAC01D872A4D0045E5DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34BEFAC51D872A4D0045E5DE /* Devolve_AiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Devolve_AiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BEFAC91D872A4D0045E5DE /* Devolve_AiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devolve_AiUITests.swift; sourceTree = "<group>"; };
+		34BEFACB1D872A4D0045E5DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34BEFAA11D872A4D0045E5DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BEFAB71D872A4D0045E5DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BEFAC21D872A4D0045E5DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34BEFA9B1D872A4D0045E5DE = {
+			isa = PBXGroup;
+			children = (
+				34BEFAA61D872A4D0045E5DE /* Devolve_Ai */,
+				34BEFABD1D872A4D0045E5DE /* Devolve_AiTests */,
+				34BEFAC81D872A4D0045E5DE /* Devolve_AiUITests */,
+				34BEFAA51D872A4D0045E5DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34BEFAA51D872A4D0045E5DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34BEFAA41D872A4D0045E5DE /* Devolve_Ai.app */,
+				34BEFABA1D872A4D0045E5DE /* Devolve_AiTests.xctest */,
+				34BEFAC51D872A4D0045E5DE /* Devolve_AiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34BEFAA61D872A4D0045E5DE /* Devolve_Ai */ = {
+			isa = PBXGroup;
+			children = (
+				34BEFAA71D872A4D0045E5DE /* AppDelegate.swift */,
+				34BEFAA91D872A4D0045E5DE /* FirstViewController.swift */,
+				34BEFAAB1D872A4D0045E5DE /* SecondViewController.swift */,
+				34BEFAAD1D872A4D0045E5DE /* Main.storyboard */,
+				34BEFAB01D872A4D0045E5DE /* Assets.xcassets */,
+				34BEFAB21D872A4D0045E5DE /* LaunchScreen.storyboard */,
+				34BEFAB51D872A4D0045E5DE /* Info.plist */,
+			);
+			path = Devolve_Ai;
+			sourceTree = "<group>";
+		};
+		34BEFABD1D872A4D0045E5DE /* Devolve_AiTests */ = {
+			isa = PBXGroup;
+			children = (
+				34BEFABE1D872A4D0045E5DE /* Devolve_AiTests.swift */,
+				34BEFAC01D872A4D0045E5DE /* Info.plist */,
+			);
+			path = Devolve_AiTests;
+			sourceTree = "<group>";
+		};
+		34BEFAC81D872A4D0045E5DE /* Devolve_AiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34BEFAC91D872A4D0045E5DE /* Devolve_AiUITests.swift */,
+				34BEFACB1D872A4D0045E5DE /* Info.plist */,
+			);
+			path = Devolve_AiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34BEFAA31D872A4D0045E5DE /* Devolve_Ai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34BEFACE1D872A4D0045E5DE /* Build configuration list for PBXNativeTarget "Devolve_Ai" */;
+			buildPhases = (
+				34BEFAA01D872A4D0045E5DE /* Sources */,
+				34BEFAA11D872A4D0045E5DE /* Frameworks */,
+				34BEFAA21D872A4D0045E5DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Devolve_Ai;
+			productName = Devolve_Ai;
+			productReference = 34BEFAA41D872A4D0045E5DE /* Devolve_Ai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34BEFAB91D872A4D0045E5DE /* Devolve_AiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34BEFAD11D872A4D0045E5DE /* Build configuration list for PBXNativeTarget "Devolve_AiTests" */;
+			buildPhases = (
+				34BEFAB61D872A4D0045E5DE /* Sources */,
+				34BEFAB71D872A4D0045E5DE /* Frameworks */,
+				34BEFAB81D872A4D0045E5DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34BEFABC1D872A4D0045E5DE /* PBXTargetDependency */,
+			);
+			name = Devolve_AiTests;
+			productName = Devolve_AiTests;
+			productReference = 34BEFABA1D872A4D0045E5DE /* Devolve_AiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34BEFAC41D872A4D0045E5DE /* Devolve_AiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34BEFAD41D872A4D0045E5DE /* Build configuration list for PBXNativeTarget "Devolve_AiUITests" */;
+			buildPhases = (
+				34BEFAC11D872A4D0045E5DE /* Sources */,
+				34BEFAC21D872A4D0045E5DE /* Frameworks */,
+				34BEFAC31D872A4D0045E5DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34BEFAC71D872A4D0045E5DE /* PBXTargetDependency */,
+			);
+			name = Devolve_AiUITests;
+			productName = Devolve_AiUITests;
+			productReference = 34BEFAC51D872A4D0045E5DE /* Devolve_AiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34BEFA9C1D872A4D0045E5DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Kongros Interactive";
+				TargetAttributes = {
+					34BEFAA31D872A4D0045E5DE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R3C9W7W45P;
+						DevelopmentTeamName = "Delson Silveira (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					34BEFAB91D872A4D0045E5DE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R3C9W7W45P;
+						DevelopmentTeamName = "Delson Silveira (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34BEFAA31D872A4D0045E5DE;
+					};
+					34BEFAC41D872A4D0045E5DE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R3C9W7W45P;
+						DevelopmentTeamName = "Delson Silveira (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34BEFAA31D872A4D0045E5DE;
+					};
+				};
+			};
+			buildConfigurationList = 34BEFA9F1D872A4D0045E5DE /* Build configuration list for PBXProject "Devolve_Ai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34BEFA9B1D872A4D0045E5DE;
+			productRefGroup = 34BEFAA51D872A4D0045E5DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34BEFAA31D872A4D0045E5DE /* Devolve_Ai */,
+				34BEFAB91D872A4D0045E5DE /* Devolve_AiTests */,
+				34BEFAC41D872A4D0045E5DE /* Devolve_AiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34BEFAA21D872A4D0045E5DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BEFAB41D872A4D0045E5DE /* LaunchScreen.storyboard in Resources */,
+				34BEFAB11D872A4D0045E5DE /* Assets.xcassets in Resources */,
+				34BEFAAF1D872A4D0045E5DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BEFAB81D872A4D0045E5DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BEFAC31D872A4D0045E5DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34BEFAA01D872A4D0045E5DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BEFAAC1D872A4D0045E5DE /* SecondViewController.swift in Sources */,
+				34BEFAA81D872A4D0045E5DE /* AppDelegate.swift in Sources */,
+				34BEFAAA1D872A4D0045E5DE /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BEFAB61D872A4D0045E5DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BEFABF1D872A4D0045E5DE /* Devolve_AiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BEFAC11D872A4D0045E5DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BEFACA1D872A4D0045E5DE /* Devolve_AiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34BEFABC1D872A4D0045E5DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34BEFAA31D872A4D0045E5DE /* Devolve_Ai */;
+			targetProxy = 34BEFABB1D872A4D0045E5DE /* PBXContainerItemProxy */;
+		};
+		34BEFAC71D872A4D0045E5DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34BEFAA31D872A4D0045E5DE /* Devolve_Ai */;
+			targetProxy = 34BEFAC61D872A4D0045E5DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34BEFAAD1D872A4D0045E5DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34BEFAAE1D872A4D0045E5DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34BEFAB21D872A4D0045E5DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34BEFAB31D872A4D0045E5DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34BEFACC1D872A4D0045E5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34BEFACD1D872A4D0045E5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34BEFACF1D872A4D0045E5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Devolve_Ai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kongros.Devolve-Ai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		34BEFAD01D872A4D0045E5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Devolve_Ai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kongros.Devolve-Ai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		34BEFAD21D872A4D0045E5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Devolve_AiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kongros.Devolve-AiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Devolve_Ai.app/Devolve_Ai";
+			};
+			name = Debug;
+		};
+		34BEFAD31D872A4D0045E5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Devolve_AiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kongros.Devolve-AiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Devolve_Ai.app/Devolve_Ai";
+			};
+			name = Release;
+		};
+		34BEFAD51D872A4D0045E5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Devolve_AiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kongros.Devolve-AiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Devolve_Ai;
+			};
+			name = Debug;
+		};
+		34BEFAD61D872A4D0045E5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Devolve_AiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kongros.Devolve-AiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Devolve_Ai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34BEFA9F1D872A4D0045E5DE /* Build configuration list for PBXProject "Devolve_Ai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BEFACC1D872A4D0045E5DE /* Debug */,
+				34BEFACD1D872A4D0045E5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34BEFACE1D872A4D0045E5DE /* Build configuration list for PBXNativeTarget "Devolve_Ai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BEFACF1D872A4D0045E5DE /* Debug */,
+				34BEFAD01D872A4D0045E5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34BEFAD11D872A4D0045E5DE /* Build configuration list for PBXNativeTarget "Devolve_AiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BEFAD21D872A4D0045E5DE /* Debug */,
+				34BEFAD31D872A4D0045E5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34BEFAD41D872A4D0045E5DE /* Build configuration list for PBXNativeTarget "Devolve_AiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BEFAD51D872A4D0045E5DE /* Debug */,
+				34BEFAD61D872A4D0045E5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34BEFA9C1D872A4D0045E5DE /* Project object */;
+}
