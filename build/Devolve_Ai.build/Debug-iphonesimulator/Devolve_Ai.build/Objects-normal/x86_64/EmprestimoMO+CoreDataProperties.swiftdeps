@@ -14,21 +14,21 @@ provides-member:
 - ["C10Devolve_Ai12EmprestimoMO", "titulo"]
 provides-dynamic-lookup:
 - "name"
-- "id"
-- "imagem"
 - "phone"
 - "titulo"
 - "detalhe"
-- "date"
 - "contactImageData"
+- "id"
+- "imagem"
+- "date"
 depends-top-level:
-- "String"
 - "NSDate"
-- "NSFetchRequest"
-- "Int64"
 - "NSData"
+- "Int64"
+- "NSFetchRequest"
 - !private "StringLiteralType"
 - "EmprestimoMO"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "NSFetchRequest"]
 - ["Ps9AnyObject", "contactImageData"]

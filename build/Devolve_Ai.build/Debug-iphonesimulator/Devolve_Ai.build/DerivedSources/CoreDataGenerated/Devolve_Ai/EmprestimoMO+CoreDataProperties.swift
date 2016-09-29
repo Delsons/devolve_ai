@@ -2,7 +2,7 @@
 //  EmprestimoMO+CoreDataProperties.swift
 //  
 //
-//  Created by Delson Silveira on 9/27/16.
+//  Created by Delson Silveira on 9/29/16.
 //
 //  This file was automatically generated and should not be edited.
 //

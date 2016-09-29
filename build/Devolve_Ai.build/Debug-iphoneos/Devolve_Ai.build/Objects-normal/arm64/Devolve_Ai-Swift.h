@@ -112,8 +112,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
 @import ContactsUI;
-@import CoreData;
 @import Foundation;
+@import CoreData;
 @import ObjectiveC;
 #endif
 
@@ -176,6 +176,42 @@ SWIFT_CLASS("_TtC10Devolve_Ai11AppDelegate")
 @end
 
 
+SWIFT_CLASS("_TtC10Devolve_Ai26ComoFuncionaViewController")
+@interface ComoFuncionaViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10Devolve_Ai19ConfigTableViewCell")
+@interface ConfigTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified opcao;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imgOpcao;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+
+SWIFT_CLASS("_TtC10Devolve_Ai25ConfigTableViewController")
+@interface ConfigTableViewController : UITableViewController
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC10Devolve_Ai20ContactTableViewCell")
 @interface ContactTableViewCell : UITableViewCell
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified itens;
@@ -188,12 +224,12 @@ SWIFT_CLASS("_TtC10Devolve_Ai20ContactTableViewCell")
 @end
 
 @class UISearchController;
-@class UITableView;
-@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC10Devolve_Ai21ContactViewController")
-@interface ContactViewController : UITableViewController <NSFetchedResultsControllerDelegate, UISearchResultsUpdating>
+@interface ContactViewController : UITableViewController <UISearchResultsUpdating>
+@property (nonatomic, copy) NSArray<EmprestimoMO *> * _Nonnull contatos;
 @property (nonatomic, copy) NSArray<EmprestimoMO *> * _Nonnull emprestimos;
+@property (nonatomic, copy) NSArray<NSNumber *> * _Nonnull total;
 // 'fetchResultController' below
 @property (nonatomic, strong) UISearchController * _Null_unspecified searchController;
 @property (nonatomic, copy) NSArray<EmprestimoMO *> * _Nonnull searchResults;
@@ -203,13 +239,9 @@ SWIFT_CLASS("_TtC10Devolve_Ai21ContactViewController")
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
 - (ContactTableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-- (void)controllerWillChangeContent:(NSFetchedResultsController<id <NSFetchRequestResult>> * _Nonnull)controller;
-- (void)controller:(NSFetchedResultsController<id <NSFetchRequestResult>> * _Nonnull)controller didChangeObject:(id _Nonnull)anObject atIndexPath:(NSIndexPath * _Nullable)indexPath forChangeType:(NSFetchedResultsChangeType)type newIndexPath:(NSIndexPath * _Nullable)newIndexPath;
-- (void)controllerDidChangeContent:(NSFetchedResultsController<id <NSFetchRequestResult>> * _Nonnull)controller;
-- (BOOL)tableView:(UITableView * _Nonnull)tableView canEditRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (void)updateSearchResultsForSearchController:(UISearchController * _Nonnull)searchController;
 - (void)filterContentFor:(NSString * _Nonnull)searchText;
-- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -231,6 +263,7 @@ SWIFT_CLASS("_TtC10Devolve_Ai20DetailViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified qtd;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (IBAction)call:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -265,8 +298,19 @@ SWIFT_CLASS("_TtC10Devolve_Ai24GradientVisualEffectView")
 - (void)layoutSubviews;
 @end
 
+
+SWIFT_CLASS("_TtC10Devolve_Ai19HeaderTableViewCell")
+@interface HeaderTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imagem;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class ObjectTableViewCell;
 @class UITableViewRowAction;
+@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC10Devolve_Ai23ListTableViewController")
 @interface ListTableViewController : UITableViewController <NSFetchedResultsControllerDelegate, UISearchResultsUpdating>
@@ -333,8 +377,26 @@ SWIFT_CLASS("_TtC10Devolve_Ai19ObjectTableViewCell")
 @end
 
 
+SWIFT_CLASS("_TtC10Devolve_Ai22PoliticaViewController")
+@interface PoliticaViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC10Devolve_Ai22SettingsViewController")
 @interface SettingsViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10Devolve_Ai19TermoViewController")
+@interface TermoViewController : UIViewController
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

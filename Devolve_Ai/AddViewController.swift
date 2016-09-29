@@ -43,7 +43,6 @@ class AddViewController: UIViewController, CNContactPickerDelegate, UIImagePicke
         let barButton = UIBarButtonItem()
         barButton.title = ""
         self.navigationController?.navigationBar.topItem?.backBarButtonItem = barButton
-        
         self.navigationController?.navigationBar.barStyle = UIBarStyle.blackTranslucent;
         
         

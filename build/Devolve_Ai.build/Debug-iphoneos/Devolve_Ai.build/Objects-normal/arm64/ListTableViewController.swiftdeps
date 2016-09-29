@@ -6,76 +6,74 @@ provides-nominal:
 provides-member:
 - ["C10Devolve_Ai23ListTableViewController", ""]
 provides-dynamic-lookup:
-- "controllerDidChangeContent"
-- "searchController"
-- "emprestimos"
-- "controllerWillChangeContent"
-- "updateSearchResults"
-- "filterContent"
-- "prepare"
-- "searchResults"
-- "viewDidLoad"
 - "tableView"
 - "tableView"
 - "tableView"
 - "tableView"
 - "tableView"
-- "didReceiveMemoryWarning"
-- "numberOfSections"
-- "fetchResultController"
-- "controller"
 - "viewWillAppear"
+- "controllerDidChangeContent"
+- "controllerWillChangeContent"
+- "fetchResultController"
+- "filterContent"
+- "numberOfSections"
+- "controller"
+- "viewDidLoad"
+- "searchResults"
+- "didReceiveMemoryWarning"
+- "updateSearchResults"
+- "prepare"
+- "emprestimos"
+- "searchController"
 depends-top-level:
-- "IndexPath"
-- !private "UIImage"
-- !private "+"
-- !private "NSSortDescriptor"
-- "Int"
-- !private "DetailViewController"
-- "UIStoryboardSegue"
-- !private "DateFormatter"
-- "AssignmentPrecedence"
-- "UITableViewController"
-- "CastingPrecedence"
-- !private "AppDelegate"
-- !private "print"
 - !private "Date"
-- !private "UIActivityViewController"
-- "EmprestimoMO"
-- "UITableView"
-- !private "UIImageView"
-- !private "NSFetchRequest"
-- !private "Void"
-- "TernaryPrecedence"
-- "String"
 - !private "UITableViewRowActionStyle"
-- !private "UIBarButtonItem"
 - !private "/"
-- !private "=="
-- "NSFetchRequestResult"
-- !private "Data"
-- !private "BooleanLiteralType"
-- "ListTableViewController"
-- !private "Array"
-- !private "UIColor"
+- "TernaryPrecedence"
+- "UITableViewController"
 - "NSFetchedResultsController"
-- "ObjectTableViewCell"
-- "UITableViewCellEditingStyle"
-- !private "!="
-- "NSFetchedResultsControllerDelegate"
-- "UISearchController"
+- "UIStoryboardSegue"
 - "Bool"
+- !private "UIImage"
+- "NSFetchedResultsControllerDelegate"
+- !private "AppDelegate"
+- !private "NSFetchRequest"
+- "String"
+- !private "NSSortDescriptor"
+- "ObjectTableViewCell"
+- !private "UIImageView"
+- !private "DateFormatter"
+- !private "UIBarButtonItem"
+- "ListTableViewController"
+- !private "!="
+- "UITableView"
+- !private "+"
+- !private "UIApplication"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "=="
+- "EmprestimoMO"
+- !private "Array"
+- !private "StringLiteralType"
+- "NSFetchRequestResult"
+- !private "Void"
+- !private "UIColor"
+- !private "DetailViewController"
 - "UITableViewRowAction"
 - "UISearchResultsUpdating"
-- !private "StringLiteralType"
+- "IndexPath"
+- !private "Data"
+- "UITableViewCellEditingStyle"
+- !private "BooleanLiteralType"
+- "Int"
+- !private "print"
+- "UISearchController"
 - "NSFetchedResultsChangeType"
-- !private "UIApplication"
 depends-member:
 - !private ["Ps9AnyObject", "DateFormatter"]
 - !private ["Ps9AnyObject", "EmprestimoMO"]
 - !private ["Ps9AnyObject", "NSFetchedResultsController"]
 - !private ["Ps9AnyObject", "NSSortDescriptor"]
-- !private ["Ps9AnyObject", "UIActivityViewController"]
 - !private ["Ps9AnyObject", "UIApplication"]
 - !private ["Ps9AnyObject", "UIBarButtonItem"]
 - !private ["Ps9AnyObject", "UIColor"]
@@ -131,8 +129,9 @@ depends-member:
 - !private ["Ps9AnyObject", "object"]
 - !private ["Ps9AnyObject", "performFetch"]
 - !private ["Ps9AnyObject", "persistentContainer"]
+- !private ["Ps9AnyObject", "phone"]
+- !private ["Ps9AnyObject", "phoneNumber"]
 - ["Ps9AnyObject", "prepare"]
-- !private ["Ps9AnyObject", "present"]
 - !private ["Ps9AnyObject", "print"]
 - !private ["Ps9AnyObject", "reloadData"]
 - !private ["Ps9AnyObject", "reloadRows"]
@@ -237,7 +236,6 @@ depends-member:
 - !private ["Ps7CVarArg", "NSSortDescriptor"]
 - !private ["Ps7CVarArg", "Stride"]
 - !private ["Ps7CVarArg", "SubSequence"]
-- !private ["Ps7CVarArg", "UIActivityViewController"]
 - !private ["Ps7CVarArg", "UIApplication"]
 - !private ["Ps7CVarArg", "UIBarButtonItem"]
 - !private ["Ps7CVarArg", "UIColor"]
@@ -297,8 +295,9 @@ depends-member:
 - !private ["Ps7CVarArg", "object"]
 - !private ["Ps7CVarArg", "performFetch"]
 - !private ["Ps7CVarArg", "persistentContainer"]
+- !private ["Ps7CVarArg", "phone"]
+- !private ["Ps7CVarArg", "phoneNumber"]
 - ["Ps7CVarArg", "prepare"]
-- !private ["Ps7CVarArg", "present"]
 - !private ["Ps7CVarArg", "print"]
 - !private ["Ps7CVarArg", "reloadData"]
 - !private ["Ps7CVarArg", "reloadRows"]
@@ -352,7 +351,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "NSFetchedResultsController"]
 - !private ["Ps28CustomDebugStringConvertible", "NSSortDescriptor"]
 - !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
-- !private ["Ps28CustomDebugStringConvertible", "UIActivityViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
 - !private ["Ps28CustomDebugStringConvertible", "UIBarButtonItem"]
 - !private ["Ps28CustomDebugStringConvertible", "UIColor"]
@@ -411,8 +409,9 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "object"]
 - !private ["Ps28CustomDebugStringConvertible", "performFetch"]
 - !private ["Ps28CustomDebugStringConvertible", "persistentContainer"]
+- !private ["Ps28CustomDebugStringConvertible", "phone"]
+- !private ["Ps28CustomDebugStringConvertible", "phoneNumber"]
 - ["Ps28CustomDebugStringConvertible", "prepare"]
-- !private ["Ps28CustomDebugStringConvertible", "present"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
 - !private ["Ps28CustomDebugStringConvertible", "reloadData"]
 - !private ["Ps28CustomDebugStringConvertible", "reloadRows"]
@@ -476,7 +475,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "NSSortDescriptor"]
 - !private ["Ps23CustomStringConvertible", "Stride"]
 - !private ["Ps23CustomStringConvertible", "SubSequence"]
-- !private ["Ps23CustomStringConvertible", "UIActivityViewController"]
 - !private ["Ps23CustomStringConvertible", "UIApplication"]
 - !private ["Ps23CustomStringConvertible", "UIBarButtonItem"]
 - !private ["Ps23CustomStringConvertible", "UIColor"]
@@ -537,8 +535,9 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "object"]
 - !private ["Ps23CustomStringConvertible", "performFetch"]
 - !private ["Ps23CustomStringConvertible", "persistentContainer"]
+- !private ["Ps23CustomStringConvertible", "phone"]
+- !private ["Ps23CustomStringConvertible", "phoneNumber"]
 - ["Ps23CustomStringConvertible", "prepare"]
-- !private ["Ps23CustomStringConvertible", "present"]
 - !private ["Ps23CustomStringConvertible", "print"]
 - !private ["Ps23CustomStringConvertible", "reloadData"]
 - !private ["Ps23CustomStringConvertible", "reloadRows"]
@@ -591,6 +590,7 @@ depends-member:
 - !private ["C10Devolve_Ai12EmprestimoMO", "fetchRequest"]
 - !private ["C10Devolve_Ai12EmprestimoMO", "imagem"]
 - !private ["C10Devolve_Ai12EmprestimoMO", "name"]
+- !private ["C10Devolve_Ai12EmprestimoMO", "phone"]
 - !private ["C10Devolve_Ai12EmprestimoMO", "titulo"]
 - !private ["Ps9Equatable", "DateFormatter"]
 - !private ["Ps9Equatable", "EmprestimoMO"]
@@ -599,7 +599,6 @@ depends-member:
 - !private ["Ps9Equatable", "NSSortDescriptor"]
 - !private ["Ps9Equatable", "RawValue"]
 - !private ["Ps9Equatable", "Stride"]
-- !private ["Ps9Equatable", "UIActivityViewController"]
 - !private ["Ps9Equatable", "UIApplication"]
 - !private ["Ps9Equatable", "UIBarButtonItem"]
 - !private ["Ps9Equatable", "UIColor"]
@@ -660,8 +659,9 @@ depends-member:
 - !private ["Ps9Equatable", "object"]
 - !private ["Ps9Equatable", "performFetch"]
 - !private ["Ps9Equatable", "persistentContainer"]
+- !private ["Ps9Equatable", "phone"]
+- !private ["Ps9Equatable", "phoneNumber"]
 - ["Ps9Equatable", "prepare"]
-- !private ["Ps9Equatable", "present"]
 - !private ["Ps9Equatable", "print"]
 - !private ["Ps9Equatable", "reloadData"]
 - !private ["Ps9Equatable", "reloadRows"]
@@ -723,7 +723,6 @@ depends-member:
 - !private ["Ps8Hashable", "NSSortDescriptor"]
 - !private ["Ps8Hashable", "RawValue"]
 - !private ["Ps8Hashable", "Stride"]
-- !private ["Ps8Hashable", "UIActivityViewController"]
 - !private ["Ps8Hashable", "UIApplication"]
 - !private ["Ps8Hashable", "UIBarButtonItem"]
 - !private ["Ps8Hashable", "UIColor"]
@@ -784,8 +783,9 @@ depends-member:
 - !private ["Ps8Hashable", "object"]
 - !private ["Ps8Hashable", "performFetch"]
 - !private ["Ps8Hashable", "persistentContainer"]
+- !private ["Ps8Hashable", "phone"]
+- !private ["Ps8Hashable", "phoneNumber"]
 - ["Ps8Hashable", "prepare"]
-- !private ["Ps8Hashable", "present"]
 - !private ["Ps8Hashable", "print"]
 - !private ["Ps8Hashable", "reloadData"]
 - !private ["Ps8Hashable", "reloadRows"]
@@ -867,7 +867,6 @@ depends-member:
 - !private ["C10Devolve_Ai23ListTableViewController", "NSSortDescriptor"]
 - ["C10Devolve_Ai23ListTableViewController", "ObjectTableViewCell"]
 - ["C10Devolve_Ai23ListTableViewController", "String"]
-- !private ["C10Devolve_Ai23ListTableViewController", "UIActivityViewController"]
 - !private ["C10Devolve_Ai23ListTableViewController", "UIApplication"]
 - !private ["C10Devolve_Ai23ListTableViewController", "UIBarButtonItem"]
 - !private ["C10Devolve_Ai23ListTableViewController", "UIColor"]
@@ -893,7 +892,6 @@ depends-member:
 - !private ["C10Devolve_Ai23ListTableViewController", "navigationItem"]
 - ["C10Devolve_Ai23ListTableViewController", "numberOfSections"]
 - ["C10Devolve_Ai23ListTableViewController", "prepare"]
-- !private ["C10Devolve_Ai23ListTableViewController", "present"]
 - !private ["C10Devolve_Ai23ListTableViewController", "print"]
 - ["C10Devolve_Ai23ListTableViewController", "searchController"]
 - ["C10Devolve_Ai23ListTableViewController", "searchResults"]
@@ -906,6 +904,7 @@ depends-member:
 - !private ["C10Devolve_Ai4Loan", "descricao"]
 - !private ["C10Devolve_Ai4Loan", "imageData"]
 - !private ["C10Devolve_Ai4Loan", "nome"]
+- !private ["C10Devolve_Ai4Loan", "phoneNumber"]
 - !private ["C10Devolve_Ai4Loan", "titulo"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps25LosslessStringConvertible", "init"]
@@ -942,7 +941,6 @@ depends-member:
 - !private ["PSo8NSCoding", "EmprestimoMO"]
 - !private ["PSo8NSCoding", "NSFetchedResultsController"]
 - !private ["PSo8NSCoding", "NSSortDescriptor"]
-- !private ["PSo8NSCoding", "UIActivityViewController"]
 - !private ["PSo8NSCoding", "UIApplication"]
 - !private ["PSo8NSCoding", "UIBarButtonItem"]
 - !private ["PSo8NSCoding", "UIColor"]
@@ -983,7 +981,6 @@ depends-member:
 - !private ["PSo8NSCoding", "navigationItem"]
 - ["PSo8NSCoding", "numberOfSections"]
 - ["PSo8NSCoding", "prepare"]
-- !private ["PSo8NSCoding", "present"]
 - !private ["PSo8NSCoding", "print"]
 - !private ["PSo8NSCoding", "reloadData"]
 - !private ["PSo8NSCoding", "reloadRows"]
@@ -1014,7 +1011,6 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "EmprestimoMO"]
 - !private ["PSo26NSExtensionRequestHandling", "NSFetchedResultsController"]
 - !private ["PSo26NSExtensionRequestHandling", "NSSortDescriptor"]
-- !private ["PSo26NSExtensionRequestHandling", "UIActivityViewController"]
 - !private ["PSo26NSExtensionRequestHandling", "UIApplication"]
 - !private ["PSo26NSExtensionRequestHandling", "UIBarButtonItem"]
 - !private ["PSo26NSExtensionRequestHandling", "UIColor"]
@@ -1040,7 +1036,6 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
 - ["PSo26NSExtensionRequestHandling", "numberOfSections"]
 - ["PSo26NSExtensionRequestHandling", "prepare"]
-- !private ["PSo26NSExtensionRequestHandling", "present"]
 - !private ["PSo26NSExtensionRequestHandling", "print"]
 - !private ["PSo26NSExtensionRequestHandling", "searchBar"]
 - ["PSo26NSExtensionRequestHandling", "searchController"]
@@ -1060,6 +1055,7 @@ depends-member:
 - !private ["PSo20NSFetchRequestResult", "fetchRequest"]
 - !private ["PSo20NSFetchRequestResult", "imagem"]
 - !private ["PSo20NSFetchRequestResult", "name"]
+- !private ["PSo20NSFetchRequestResult", "phone"]
 - !private ["PSo20NSFetchRequestResult", "titulo"]
 - ["OSC26NSFetchedResultsChangeType", "deinit"]
 - ["OSC26NSFetchedResultsChangeType", "delete"]
@@ -1075,7 +1071,6 @@ depends-member:
 - !private ["PSo34NSFetchedResultsControllerDelegate", "EmprestimoMO"]
 - !private ["PSo34NSFetchedResultsControllerDelegate", "NSFetchedResultsController"]
 - !private ["PSo34NSFetchedResultsControllerDelegate", "NSSortDescriptor"]
-- !private ["PSo34NSFetchedResultsControllerDelegate", "UIActivityViewController"]
 - !private ["PSo34NSFetchedResultsControllerDelegate", "UIApplication"]
 - !private ["PSo34NSFetchedResultsControllerDelegate", "UIBarButtonItem"]
 - !private ["PSo34NSFetchedResultsControllerDelegate", "UIColor"]
@@ -1096,7 +1091,7 @@ depends-member:
 - !private ["PSo34NSFetchedResultsControllerDelegate", "navigationController"]
 - !private ["PSo34NSFetchedResultsControllerDelegate", "navigationItem"]
 - !private ["PSo34NSFetchedResultsControllerDelegate", "nome"]
-- !private ["PSo34NSFetchedResultsControllerDelegate", "present"]
+- !private ["PSo34NSFetchedResultsControllerDelegate", "phoneNumber"]
 - !private ["PSo34NSFetchedResultsControllerDelegate", "print"]
 - !private ["PSo34NSFetchedResultsControllerDelegate", "searchController"]
 - !private ["PSo34NSFetchedResultsControllerDelegate", "searchResults"]
@@ -1111,6 +1106,7 @@ depends-member:
 - !private ["CSo15NSManagedObject", "fetchRequest"]
 - !private ["CSo15NSManagedObject", "imagem"]
 - !private ["CSo15NSManagedObject", "name"]
+- !private ["CSo15NSManagedObject", "phone"]
 - !private ["CSo15NSManagedObject", "titulo"]
 - ["CSo22NSManagedObjectContext", "deinit"]
 - !private ["CSo22NSManagedObjectContext", "delete"]
@@ -1132,7 +1128,6 @@ depends-member:
 - !private ["CSo8NSObject", "NSSortDescriptor"]
 - ["CSo8NSObject", "ObjectTableViewCell"]
 - ["CSo8NSObject", "String"]
-- !private ["CSo8NSObject", "UIActivityViewController"]
 - !private ["CSo8NSObject", "UIApplication"]
 - !private ["CSo8NSObject", "UIBarButtonItem"]
 - !private ["CSo8NSObject", "UIColor"]
@@ -1192,8 +1187,9 @@ depends-member:
 - !private ["CSo8NSObject", "object"]
 - !private ["CSo8NSObject", "performFetch"]
 - !private ["CSo8NSObject", "persistentContainer"]
+- !private ["CSo8NSObject", "phone"]
+- !private ["CSo8NSObject", "phoneNumber"]
 - ["CSo8NSObject", "prepare"]
-- !private ["CSo8NSObject", "present"]
 - !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "reloadData"]
 - !private ["CSo8NSObject", "reloadRows"]
@@ -1221,7 +1217,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "EmprestimoMO"]
 - !private ["PSo16NSObjectProtocol", "NSFetchedResultsController"]
 - !private ["PSo16NSObjectProtocol", "NSSortDescriptor"]
-- !private ["PSo16NSObjectProtocol", "UIActivityViewController"]
 - !private ["PSo16NSObjectProtocol", "UIApplication"]
 - !private ["PSo16NSObjectProtocol", "UIBarButtonItem"]
 - !private ["PSo16NSObjectProtocol", "UIColor"]
@@ -1277,8 +1272,9 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "object"]
 - !private ["PSo16NSObjectProtocol", "performFetch"]
 - !private ["PSo16NSObjectProtocol", "persistentContainer"]
+- !private ["PSo16NSObjectProtocol", "phone"]
+- !private ["PSo16NSObjectProtocol", "phoneNumber"]
 - ["PSo16NSObjectProtocol", "prepare"]
-- !private ["PSo16NSObjectProtocol", "present"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "reloadData"]
 - !private ["PSo16NSObjectProtocol", "reloadRows"]
@@ -1426,8 +1422,6 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["PSo29UIAccessibilityIdentification", "title"]
 - !private ["PSo29UIAccessibilityIdentification", "tituloLabel"]
-- !private ["CSo24UIActivityViewController", "deinit"]
-- !private ["CSo24UIActivityViewController", "init"]
 - !private ["PSo12UIAppearance", "beginUpdates"]
 - !private ["PSo12UIAppearance", "bgImage"]
 - !private ["PSo12UIAppearance", "dataLabel"]
@@ -1450,7 +1444,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "EmprestimoMO"]
 - !private ["PSo21UIAppearanceContainer", "NSFetchedResultsController"]
 - !private ["PSo21UIAppearanceContainer", "NSSortDescriptor"]
-- !private ["PSo21UIAppearanceContainer", "UIActivityViewController"]
 - !private ["PSo21UIAppearanceContainer", "UIApplication"]
 - !private ["PSo21UIAppearanceContainer", "UIBarButtonItem"]
 - !private ["PSo21UIAppearanceContainer", "UIColor"]
@@ -1487,7 +1480,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "navigationItem"]
 - ["PSo21UIAppearanceContainer", "numberOfSections"]
 - ["PSo21UIAppearanceContainer", "prepare"]
-- !private ["PSo21UIAppearanceContainer", "present"]
 - !private ["PSo21UIAppearanceContainer", "print"]
 - !private ["PSo21UIAppearanceContainer", "reloadData"]
 - !private ["PSo21UIAppearanceContainer", "reloadRows"]
@@ -1521,7 +1513,6 @@ depends-member:
 - !private ["PSo18UIContentContainer", "EmprestimoMO"]
 - !private ["PSo18UIContentContainer", "NSFetchedResultsController"]
 - !private ["PSo18UIContentContainer", "NSSortDescriptor"]
-- !private ["PSo18UIContentContainer", "UIActivityViewController"]
 - !private ["PSo18UIContentContainer", "UIApplication"]
 - !private ["PSo18UIContentContainer", "UIBarButtonItem"]
 - !private ["PSo18UIContentContainer", "UIColor"]
@@ -1547,7 +1538,6 @@ depends-member:
 - !private ["PSo18UIContentContainer", "navigationItem"]
 - ["PSo18UIContentContainer", "numberOfSections"]
 - ["PSo18UIContentContainer", "prepare"]
-- !private ["PSo18UIContentContainer", "present"]
 - !private ["PSo18UIContentContainer", "print"]
 - !private ["PSo18UIContentContainer", "searchBar"]
 - ["PSo18UIContentContainer", "searchController"]
@@ -1598,7 +1588,6 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "EmprestimoMO"]
 - !private ["PSo18UIFocusEnvironment", "NSFetchedResultsController"]
 - !private ["PSo18UIFocusEnvironment", "NSSortDescriptor"]
-- !private ["PSo18UIFocusEnvironment", "UIActivityViewController"]
 - !private ["PSo18UIFocusEnvironment", "UIApplication"]
 - !private ["PSo18UIFocusEnvironment", "UIBarButtonItem"]
 - !private ["PSo18UIFocusEnvironment", "UIColor"]
@@ -1635,7 +1624,6 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "navigationItem"]
 - ["PSo18UIFocusEnvironment", "numberOfSections"]
 - ["PSo18UIFocusEnvironment", "prepare"]
-- !private ["PSo18UIFocusEnvironment", "present"]
 - !private ["PSo18UIFocusEnvironment", "print"]
 - !private ["PSo18UIFocusEnvironment", "reloadData"]
 - !private ["PSo18UIFocusEnvironment", "reloadRows"]
@@ -1674,7 +1662,6 @@ depends-member:
 - !private ["PSo27UIGestureRecognizerDelegate", "descricaoLabel"]
 - !private ["PSo27UIGestureRecognizerDelegate", "nameLabel"]
 - !private ["PSo27UIGestureRecognizerDelegate", "tituloLabel"]
-- !private ["CSo7UIImage", "deinit"]
 - !private ["CSo7UIImage", "init"]
 - ["CSo11UIImageView", "deinit"]
 - !private ["CSo11UIImageView", "image"]
@@ -1702,7 +1689,6 @@ depends-member:
 - !private ["CSo11UIResponder", "NSSortDescriptor"]
 - ["CSo11UIResponder", "ObjectTableViewCell"]
 - ["CSo11UIResponder", "String"]
-- !private ["CSo11UIResponder", "UIActivityViewController"]
 - !private ["CSo11UIResponder", "UIApplication"]
 - !private ["CSo11UIResponder", "UIBarButtonItem"]
 - !private ["CSo11UIResponder", "UIColor"]
@@ -1745,7 +1731,6 @@ depends-member:
 - ["CSo11UIResponder", "numberOfSections"]
 - !private ["CSo11UIResponder", "persistentContainer"]
 - ["CSo11UIResponder", "prepare"]
-- !private ["CSo11UIResponder", "present"]
 - !private ["CSo11UIResponder", "print"]
 - !private ["CSo11UIResponder", "reloadData"]
 - !private ["CSo11UIResponder", "reloadRows"]
@@ -1767,7 +1752,6 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "EmprestimoMO"]
 - !private ["PSo30UIResponderStandardEditActions", "NSFetchedResultsController"]
 - !private ["PSo30UIResponderStandardEditActions", "NSSortDescriptor"]
-- !private ["PSo30UIResponderStandardEditActions", "UIActivityViewController"]
 - !private ["PSo30UIResponderStandardEditActions", "UIApplication"]
 - !private ["PSo30UIResponderStandardEditActions", "UIBarButtonItem"]
 - !private ["PSo30UIResponderStandardEditActions", "UIColor"]
@@ -1806,7 +1790,6 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "numberOfSections"]
 - !private ["PSo30UIResponderStandardEditActions", "persistentContainer"]
 - ["PSo30UIResponderStandardEditActions", "prepare"]
-- !private ["PSo30UIResponderStandardEditActions", "present"]
 - !private ["PSo30UIResponderStandardEditActions", "print"]
 - !private ["PSo30UIResponderStandardEditActions", "reloadData"]
 - !private ["PSo30UIResponderStandardEditActions", "reloadRows"]
@@ -1839,7 +1822,6 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "EmprestimoMO"]
 - !private ["PSo20UIScrollViewDelegate", "NSFetchedResultsController"]
 - !private ["PSo20UIScrollViewDelegate", "NSSortDescriptor"]
-- !private ["PSo20UIScrollViewDelegate", "UIActivityViewController"]
 - !private ["PSo20UIScrollViewDelegate", "UIApplication"]
 - !private ["PSo20UIScrollViewDelegate", "UIBarButtonItem"]
 - !private ["PSo20UIScrollViewDelegate", "UIColor"]
@@ -1860,7 +1842,6 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "navigationItem"]
 - ["PSo20UIScrollViewDelegate", "numberOfSections"]
 - ["PSo20UIScrollViewDelegate", "prepare"]
-- !private ["PSo20UIScrollViewDelegate", "present"]
 - !private ["PSo20UIScrollViewDelegate", "print"]
 - ["PSo20UIScrollViewDelegate", "searchController"]
 - ["PSo20UIScrollViewDelegate", "searchResults"]
@@ -1882,7 +1863,6 @@ depends-member:
 - !private ["PSo23UISearchResultsUpdating", "EmprestimoMO"]
 - !private ["PSo23UISearchResultsUpdating", "NSFetchedResultsController"]
 - !private ["PSo23UISearchResultsUpdating", "NSSortDescriptor"]
-- !private ["PSo23UISearchResultsUpdating", "UIActivityViewController"]
 - !private ["PSo23UISearchResultsUpdating", "UIApplication"]
 - !private ["PSo23UISearchResultsUpdating", "UIBarButtonItem"]
 - !private ["PSo23UISearchResultsUpdating", "UIColor"]
@@ -1899,7 +1879,6 @@ depends-member:
 - !private ["PSo23UISearchResultsUpdating", "filterContent"]
 - !private ["PSo23UISearchResultsUpdating", "navigationController"]
 - !private ["PSo23UISearchResultsUpdating", "navigationItem"]
-- !private ["PSo23UISearchResultsUpdating", "present"]
 - !private ["PSo23UISearchResultsUpdating", "print"]
 - !private ["PSo23UISearchResultsUpdating", "searchController"]
 - !private ["PSo23UISearchResultsUpdating", "searchResults"]
@@ -1911,7 +1890,6 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "EmprestimoMO"]
 - !private ["PSo16UIStateRestoring", "NSFetchedResultsController"]
 - !private ["PSo16UIStateRestoring", "NSSortDescriptor"]
-- !private ["PSo16UIStateRestoring", "UIActivityViewController"]
 - !private ["PSo16UIStateRestoring", "UIApplication"]
 - !private ["PSo16UIStateRestoring", "UIBarButtonItem"]
 - !private ["PSo16UIStateRestoring", "UIColor"]
@@ -1937,7 +1915,6 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "navigationItem"]
 - ["PSo16UIStateRestoring", "numberOfSections"]
 - ["PSo16UIStateRestoring", "prepare"]
-- !private ["PSo16UIStateRestoring", "present"]
 - !private ["PSo16UIStateRestoring", "print"]
 - !private ["PSo16UIStateRestoring", "searchBar"]
 - ["PSo16UIStateRestoring", "searchController"]
@@ -1987,7 +1964,6 @@ depends-member:
 - !private ["CSo21UITableViewController", "NSSortDescriptor"]
 - ["CSo21UITableViewController", "ObjectTableViewCell"]
 - ["CSo21UITableViewController", "String"]
-- !private ["CSo21UITableViewController", "UIActivityViewController"]
 - !private ["CSo21UITableViewController", "UIApplication"]
 - !private ["CSo21UITableViewController", "UIBarButtonItem"]
 - !private ["CSo21UITableViewController", "UIColor"]
@@ -2013,7 +1989,6 @@ depends-member:
 - !private ["CSo21UITableViewController", "navigationItem"]
 - ["CSo21UITableViewController", "numberOfSections"]
 - ["CSo21UITableViewController", "prepare"]
-- !private ["CSo21UITableViewController", "present"]
 - !private ["CSo21UITableViewController", "print"]
 - ["CSo21UITableViewController", "searchController"]
 - ["CSo21UITableViewController", "searchResults"]
@@ -2027,7 +2002,6 @@ depends-member:
 - !private ["PSo21UITableViewDataSource", "EmprestimoMO"]
 - !private ["PSo21UITableViewDataSource", "NSFetchedResultsController"]
 - !private ["PSo21UITableViewDataSource", "NSSortDescriptor"]
-- !private ["PSo21UITableViewDataSource", "UIActivityViewController"]
 - !private ["PSo21UITableViewDataSource", "UIApplication"]
 - !private ["PSo21UITableViewDataSource", "UIBarButtonItem"]
 - !private ["PSo21UITableViewDataSource", "UIColor"]
@@ -2048,7 +2022,6 @@ depends-member:
 - !private ["PSo21UITableViewDataSource", "navigationItem"]
 - ["PSo21UITableViewDataSource", "numberOfSections"]
 - ["PSo21UITableViewDataSource", "prepare"]
-- !private ["PSo21UITableViewDataSource", "present"]
 - !private ["PSo21UITableViewDataSource", "print"]
 - ["PSo21UITableViewDataSource", "searchController"]
 - ["PSo21UITableViewDataSource", "searchResults"]
@@ -2062,7 +2035,6 @@ depends-member:
 - !private ["PSo19UITableViewDelegate", "EmprestimoMO"]
 - !private ["PSo19UITableViewDelegate", "NSFetchedResultsController"]
 - !private ["PSo19UITableViewDelegate", "NSSortDescriptor"]
-- !private ["PSo19UITableViewDelegate", "UIActivityViewController"]
 - !private ["PSo19UITableViewDelegate", "UIApplication"]
 - !private ["PSo19UITableViewDelegate", "UIBarButtonItem"]
 - !private ["PSo19UITableViewDelegate", "UIColor"]
@@ -2083,7 +2055,6 @@ depends-member:
 - !private ["PSo19UITableViewDelegate", "navigationItem"]
 - ["PSo19UITableViewDelegate", "numberOfSections"]
 - ["PSo19UITableViewDelegate", "prepare"]
-- !private ["PSo19UITableViewDelegate", "present"]
 - !private ["PSo19UITableViewDelegate", "print"]
 - ["PSo19UITableViewDelegate", "searchController"]
 - ["PSo19UITableViewDelegate", "searchResults"]
@@ -2108,7 +2079,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "EmprestimoMO"]
 - !private ["PSo18UITraitEnvironment", "NSFetchedResultsController"]
 - !private ["PSo18UITraitEnvironment", "NSSortDescriptor"]
-- !private ["PSo18UITraitEnvironment", "UIActivityViewController"]
 - !private ["PSo18UITraitEnvironment", "UIApplication"]
 - !private ["PSo18UITraitEnvironment", "UIBarButtonItem"]
 - !private ["PSo18UITraitEnvironment", "UIColor"]
@@ -2145,7 +2115,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "navigationItem"]
 - ["PSo18UITraitEnvironment", "numberOfSections"]
 - ["PSo18UITraitEnvironment", "prepare"]
-- !private ["PSo18UITraitEnvironment", "present"]
 - !private ["PSo18UITraitEnvironment", "print"]
 - !private ["PSo18UITraitEnvironment", "reloadData"]
 - !private ["PSo18UITraitEnvironment", "reloadRows"]
@@ -2195,7 +2164,6 @@ depends-member:
 - !private ["CSo16UIViewController", "NSSortDescriptor"]
 - ["CSo16UIViewController", "ObjectTableViewCell"]
 - ["CSo16UIViewController", "String"]
-- !private ["CSo16UIViewController", "UIActivityViewController"]
 - !private ["CSo16UIViewController", "UIApplication"]
 - !private ["CSo16UIViewController", "UIBarButtonItem"]
 - !private ["CSo16UIViewController", "UIColor"]
@@ -2226,7 +2194,6 @@ depends-member:
 - !private ["CSo16UIViewController", "navigationItem"]
 - ["CSo16UIViewController", "numberOfSections"]
 - ["CSo16UIViewController", "prepare"]
-- !private ["CSo16UIViewController", "present"]
 - !private ["CSo16UIViewController", "print"]
 - !private ["CSo16UIViewController", "searchBar"]
 - ["CSo16UIViewController", "searchController"]
@@ -2307,7 +2274,6 @@ depends-member:
 - !private ["Ps9_Hashable", "NSSortDescriptor"]
 - !private ["Ps9_Hashable", "RawValue"]
 - !private ["Ps9_Hashable", "Stride"]
-- !private ["Ps9_Hashable", "UIActivityViewController"]
 - !private ["Ps9_Hashable", "UIApplication"]
 - !private ["Ps9_Hashable", "UIBarButtonItem"]
 - !private ["Ps9_Hashable", "UIColor"]
@@ -2368,8 +2334,9 @@ depends-member:
 - !private ["Ps9_Hashable", "object"]
 - !private ["Ps9_Hashable", "performFetch"]
 - !private ["Ps9_Hashable", "persistentContainer"]
+- !private ["Ps9_Hashable", "phone"]
+- !private ["Ps9_Hashable", "phoneNumber"]
 - ["Ps9_Hashable", "prepare"]
-- !private ["Ps9_Hashable", "present"]
 - !private ["Ps9_Hashable", "print"]
 - !private ["Ps9_Hashable", "reloadData"]
 - !private ["Ps9_Hashable", "reloadRows"]
@@ -2520,7 +2487,6 @@ depends-nominal:
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
 - !private "PSo29UIAccessibilityIdentification"
-- !private "CSo24UIActivityViewController"
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
 - "CSo13UIApplication"

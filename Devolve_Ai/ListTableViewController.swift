@@ -183,6 +183,9 @@ class ListTableViewController: UITableViewController, NSFetchedResultsController
     
     override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
         
+        
+        
+        /*
         // Social Sharing Button
         let shareAction = UITableViewRowAction(style: UITableViewRowActionStyle.default, title: "Share", handler: { (action, indexPath) -> Void in
             
@@ -193,6 +196,8 @@ class ListTableViewController: UITableViewController, NSFetchedResultsController
                 self.present(activityController, animated: true, completion: nil)
             }
         })
+        */
+        
         
         // Delete button
         let deleteAction = UITableViewRowAction(style: UITableViewRowActionStyle.default, title: "Delete",handler: { (action, indexPath) -> Void in
@@ -207,10 +212,11 @@ class ListTableViewController: UITableViewController, NSFetchedResultsController
             
         })
         
-        shareAction.backgroundColor = UIColor(red: 48.0/255.0, green: 173.0/255.0, blue: 99.0/255.0, alpha: 1.0)
+        //shareAction.backgroundColor = UIColor(red: 48.0/255.0, green: 173.0/255.0, blue: 99.0/255.0, alpha: 1.0)
         deleteAction.backgroundColor = UIColor(red: 202.0/255.0, green: 202.0/255.0, blue: 203.0/255.0, alpha: 1.0)
         
-        return [deleteAction, shareAction]
+        //return [deleteAction, shareAction]
+        return [deleteAction]
     }
     
     
@@ -312,7 +318,7 @@ class ListTableViewController: UITableViewController, NSFetchedResultsController
                 destinationController.emprestimo.titulo = emprestimo.titulo
                 destinationController.emprestimo.date =  emprestimo.date
                 destinationController.emprestimo.descricao = emprestimo.detalhe
-                
+                destinationController.emprestimo.phoneNumber = emprestimo.phone
 
 
                 let backItem = UIBarButtonItem()

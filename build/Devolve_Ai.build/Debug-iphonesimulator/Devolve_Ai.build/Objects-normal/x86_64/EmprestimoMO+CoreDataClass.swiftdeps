@@ -7,8 +7,8 @@ provides-member:
 - ["C10Devolve_Ai12EmprestimoMO", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "NSManagedObject"
 - "EmprestimoMO"
+- "NSManagedObject"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", ""]

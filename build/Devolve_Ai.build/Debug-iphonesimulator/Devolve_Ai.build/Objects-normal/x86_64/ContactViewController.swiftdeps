@@ -6,61 +6,70 @@ provides-nominal:
 provides-member:
 - ["C10Devolve_Ai21ContactViewController", ""]
 provides-dynamic-lookup:
-- "updateSearchResults"
-- "numberOfSections"
-- "filterContent"
-- "didReceiveMemoryWarning"
-- "searchResults"
-- "total"
-- "fetchResultController"
-- "contatos"
-- "viewDidLoad"
+- "tableView"
 - "tableView"
 - "tableView"
 - "viewWillAppear"
 - "searchController"
+- "filterContent"
 - "emprestimos"
+- "total"
+- "searchResults"
+- "numberOfSections"
+- "contatos"
+- "didReceiveMemoryWarning"
+- "updateSearchResults"
+- "viewDidLoad"
+- "fetchResultController"
 depends-top-level:
-- !private "UIImageView"
-- !private "<"
-- "CastingPrecedence"
 - "UITableView"
-- "AssignmentPrecedence"
-- "String"
+- "UISearchResultsUpdating"
 - !private "Array"
-- !private "Data"
-- !private "=="
+- !private "print"
 - "UITableViewController"
 - !private "UIApplication"
+- !private "NSURL"
+- !private "UIImageView"
+- "ContactTableViewCell"
+- "Int"
+- "String"
+- "EmprestimoMO"
+- "IndexPath"
+- "TernaryPrecedence"
+- !private "!="
+- !private "+"
+- !private "~="
+- "AssignmentPrecedence"
+- !private "<"
+- "CastingPrecedence"
+- "Bool"
+- !private "NSSortDescriptor"
+- "UISearchController"
+- !private "Data"
+- !private "=="
+- !private "UIImage"
+- "ContactViewController"
+- !private "StringLiteralType"
+- !private ">="
 - "NSFetchedResultsController"
 - !private "NSFetchRequest"
-- "TernaryPrecedence"
-- "UISearchResultsUpdating"
-- !private "NSSortDescriptor"
-- !private "AppDelegate"
-- !private "print"
-- "Int"
-- "ContactTableViewCell"
-- !private "StringLiteralType"
-- "IndexPath"
 - !private "BooleanLiteralType"
-- "EmprestimoMO"
-- "ContactViewController"
-- !private "UIImage"
-- !private "+"
-- !private ">="
-- "UISearchController"
-- "Bool"
+- !private "URL"
+- !private "AppDelegate"
+- !private "ExtendedGraphemeClusterType"
+- !private "UnicodeScalarType"
 depends-member:
 - !private ["Ps9AnyObject", "EmprestimoMO"]
 - ["Ps9AnyObject", "Int"]
 - !private ["Ps9AnyObject", "NSFetchedResultsController"]
 - !private ["Ps9AnyObject", "NSSortDescriptor"]
+- !private ["Ps9AnyObject", "NSURL"]
 - !private ["Ps9AnyObject", "String"]
 - !private ["Ps9AnyObject", "UIApplication"]
 - !private ["Ps9AnyObject", "UIImage"]
 - !private ["Ps9AnyObject", "UIImageView"]
 - !private ["Ps9AnyObject", "UISearchController"]
+- !private ["Ps9AnyObject", "characters"]
 - !private ["Ps9AnyObject", "clipsToBounds"]
 - !private ["Ps9AnyObject", "contactImageData"]
 - ["Ps9AnyObject", "contatos"]
@@ -86,6 +95,7 @@ depends-member:
 - !private ["Ps9AnyObject", "navigationItem"]
 - !private ["Ps9AnyObject", "nome"]
 - ["Ps9AnyObject", "numberOfSections"]
+- !private ["Ps9AnyObject", "openURL"]
 - !private ["Ps9AnyObject", "performFetch"]
 - !private ["Ps9AnyObject", "persistentContainer"]
 - !private ["Ps9AnyObject", "phone"]
@@ -180,6 +190,7 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "text"]
 - !private ["PSo13CAMediaTiming", "cornerRadius"]
 - ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSo15CNKeyDescriptor", "characters"]
 - !private ["PSo15CNKeyDescriptor", "init"]
 - !private ["PSo15CNKeyDescriptor", "localizedCaseInsensitiveContains"]
 - !private ["Ps7CVarArg", "Element"]
@@ -191,6 +202,7 @@ depends-member:
 - !private ["Ps7CVarArg", "Iterator"]
 - !private ["Ps7CVarArg", "NSFetchedResultsController"]
 - !private ["Ps7CVarArg", "NSSortDescriptor"]
+- !private ["Ps7CVarArg", "NSURL"]
 - !private ["Ps7CVarArg", "Stride"]
 - !private ["Ps7CVarArg", "String"]
 - !private ["Ps7CVarArg", "SubSequence"]
@@ -201,6 +213,7 @@ depends-member:
 - !private ["Ps7CVarArg", "_DisabledRangeIndex"]
 - !private ["Ps7CVarArg", "_Element"]
 - !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "characters"]
 - !private ["Ps7CVarArg", "clipsToBounds"]
 - !private ["Ps7CVarArg", "contactImageData"]
 - ["Ps7CVarArg", "contatos"]
@@ -228,6 +241,7 @@ depends-member:
 - !private ["Ps7CVarArg", "navigationItem"]
 - !private ["Ps7CVarArg", "nome"]
 - ["Ps7CVarArg", "numberOfSections"]
+- !private ["Ps7CVarArg", "openURL"]
 - !private ["Ps7CVarArg", "performFetch"]
 - !private ["Ps7CVarArg", "persistentContainer"]
 - !private ["Ps7CVarArg", "phone"]
@@ -251,7 +265,11 @@ depends-member:
 - ["Ps7CVarArg", "viewDidLoad"]
 - ["Ps7CVarArg", "viewWillAppear"]
 - ["Ps7CVarArg", ""]
-- !private ["Vs9Character", "deinit"]
+- ["Vs9Character", "deinit"]
+- !private ["Vs9Character", "init"]
+- !private ["VSS13CharacterView", "Iterator"]
+- !private ["VSS13CharacterView", "_Element"]
+- !private ["Vs11ClosedRange", "deinit"]
 - !private ["Ps10Collection", "Element"]
 - !private ["Ps10Collection", "Index"]
 - !private ["Ps10Collection", "IndexDistance"]
@@ -270,6 +288,7 @@ depends-member:
 - !private ["Ps10Comparable", "IntegerLiteralType"]
 - !private ["Ps10Comparable", "Stride"]
 - !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- !private ["Ps10Comparable", "characters"]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps10Comparable", "localizedCaseInsensitiveContains"]
 - !private ["Ps10Comparable", "row"]
@@ -287,12 +306,14 @@ depends-member:
 - !private ["C10Devolve_Ai21ContactViewController", "NSFetchRequest"]
 - ["C10Devolve_Ai21ContactViewController", "NSFetchedResultsController"]
 - !private ["C10Devolve_Ai21ContactViewController", "NSSortDescriptor"]
+- !private ["C10Devolve_Ai21ContactViewController", "NSURL"]
 - ["C10Devolve_Ai21ContactViewController", "String"]
 - !private ["C10Devolve_Ai21ContactViewController", "UIApplication"]
 - !private ["C10Devolve_Ai21ContactViewController", "UIImage"]
 - !private ["C10Devolve_Ai21ContactViewController", "UIImageView"]
 - ["C10Devolve_Ai21ContactViewController", "UISearchController"]
 - ["C10Devolve_Ai21ContactViewController", "UITableView"]
+- !private ["C10Devolve_Ai21ContactViewController", "URL"]
 - ["C10Devolve_Ai21ContactViewController", "contatos"]
 - ["C10Devolve_Ai21ContactViewController", "deinit"]
 - ["C10Devolve_Ai21ContactViewController", "didReceiveMemoryWarning"]
@@ -312,6 +333,8 @@ depends-member:
 - ["C10Devolve_Ai21ContactViewController", "updateSearchResultsForSearchController"]
 - ["C10Devolve_Ai21ContactViewController", "viewDidLoad"]
 - ["C10Devolve_Ai21ContactViewController", "viewWillAppear"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
 - !private ["Ps28CustomDebugStringConvertible", "Element"]
 - !private ["Ps28CustomDebugStringConvertible", "EmprestimoMO"]
 - !private ["Ps28CustomDebugStringConvertible", "Index"]
@@ -320,6 +343,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "Iterator"]
 - !private ["Ps28CustomDebugStringConvertible", "NSFetchedResultsController"]
 - !private ["Ps28CustomDebugStringConvertible", "NSSortDescriptor"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURL"]
 - !private ["Ps28CustomDebugStringConvertible", "String"]
 - !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
 - !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
@@ -328,6 +352,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "UISearchController"]
 - !private ["Ps28CustomDebugStringConvertible", "_Element"]
 - !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "characters"]
 - !private ["Ps28CustomDebugStringConvertible", "clipsToBounds"]
 - !private ["Ps28CustomDebugStringConvertible", "contactImageData"]
 - ["Ps28CustomDebugStringConvertible", "contatos"]
@@ -355,6 +380,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "navigationItem"]
 - !private ["Ps28CustomDebugStringConvertible", "nome"]
 - ["Ps28CustomDebugStringConvertible", "numberOfSections"]
+- !private ["Ps28CustomDebugStringConvertible", "openURL"]
 - !private ["Ps28CustomDebugStringConvertible", "performFetch"]
 - !private ["Ps28CustomDebugStringConvertible", "persistentContainer"]
 - !private ["Ps28CustomDebugStringConvertible", "phone"]
@@ -384,6 +410,7 @@ depends-member:
 - !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "characters"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "localizedCaseInsensitiveContains"]
 - !private ["Ps17CustomReflectable", "Element"]
@@ -397,6 +424,7 @@ depends-member:
 - !private ["Ps17CustomReflectable", "_Element"]
 - !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
 - !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "characters"]
 - !private ["Ps17CustomReflectable", "count"]
 - !private ["Ps17CustomReflectable", "filter"]
 - ["Ps17CustomReflectable", "init"]
@@ -415,6 +443,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "Iterator"]
 - !private ["Ps23CustomStringConvertible", "NSFetchedResultsController"]
 - !private ["Ps23CustomStringConvertible", "NSSortDescriptor"]
+- !private ["Ps23CustomStringConvertible", "NSURL"]
 - !private ["Ps23CustomStringConvertible", "Stride"]
 - !private ["Ps23CustomStringConvertible", "String"]
 - !private ["Ps23CustomStringConvertible", "SubSequence"]
@@ -426,6 +455,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "_Element"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "characters"]
 - !private ["Ps23CustomStringConvertible", "clipsToBounds"]
 - !private ["Ps23CustomStringConvertible", "contactImageData"]
 - ["Ps23CustomStringConvertible", "contatos"]
@@ -453,6 +483,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "navigationItem"]
 - !private ["Ps23CustomStringConvertible", "nome"]
 - ["Ps23CustomStringConvertible", "numberOfSections"]
+- !private ["Ps23CustomStringConvertible", "openURL"]
 - !private ["Ps23CustomStringConvertible", "performFetch"]
 - !private ["Ps23CustomStringConvertible", "persistentContainer"]
 - !private ["Ps23CustomStringConvertible", "phone"]
@@ -499,6 +530,7 @@ depends-member:
 - !private ["Ps9Equatable", "IntegerLiteralType"]
 - !private ["Ps9Equatable", "NSFetchedResultsController"]
 - !private ["Ps9Equatable", "NSSortDescriptor"]
+- !private ["Ps9Equatable", "NSURL"]
 - !private ["Ps9Equatable", "Stride"]
 - !private ["Ps9Equatable", "String"]
 - !private ["Ps9Equatable", "UIApplication"]
@@ -507,6 +539,7 @@ depends-member:
 - !private ["Ps9Equatable", "UISearchController"]
 - !private ["Ps9Equatable", "_DisabledRangeIndex"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "characters"]
 - !private ["Ps9Equatable", "clipsToBounds"]
 - !private ["Ps9Equatable", "contactImageData"]
 - ["Ps9Equatable", "contatos"]
@@ -532,6 +565,7 @@ depends-member:
 - !private ["Ps9Equatable", "navigationItem"]
 - !private ["Ps9Equatable", "nome"]
 - ["Ps9Equatable", "numberOfSections"]
+- !private ["Ps9Equatable", "openURL"]
 - !private ["Ps9Equatable", "performFetch"]
 - !private ["Ps9Equatable", "persistentContainer"]
 - !private ["Ps9Equatable", "phone"]
@@ -571,16 +605,20 @@ depends-member:
 - !private ["Ps25ExpressibleByArrayLiteral", "row"]
 - !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "characters"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "localizedCaseInsensitiveContains"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
 - ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps32ExpressibleByStringInterpolation", "characters"]
 - !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps32ExpressibleByStringInterpolation", "localizedCaseInsensitiveContains"]
+- !private ["Ps26ExpressibleByStringLiteral", "characters"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "localizedCaseInsensitiveContains"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "characters"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "localizedCaseInsensitiveContains"]
 - !private ["Sf", "deinit"]
@@ -589,6 +627,7 @@ depends-member:
 - !private ["Ps8Hashable", "IntegerLiteralType"]
 - !private ["Ps8Hashable", "NSFetchedResultsController"]
 - !private ["Ps8Hashable", "NSSortDescriptor"]
+- !private ["Ps8Hashable", "NSURL"]
 - !private ["Ps8Hashable", "Stride"]
 - !private ["Ps8Hashable", "String"]
 - !private ["Ps8Hashable", "UIApplication"]
@@ -597,6 +636,7 @@ depends-member:
 - !private ["Ps8Hashable", "UISearchController"]
 - !private ["Ps8Hashable", "_DisabledRangeIndex"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "characters"]
 - !private ["Ps8Hashable", "clipsToBounds"]
 - !private ["Ps8Hashable", "contactImageData"]
 - ["Ps8Hashable", "contatos"]
@@ -622,6 +662,7 @@ depends-member:
 - !private ["Ps8Hashable", "navigationItem"]
 - !private ["Ps8Hashable", "nome"]
 - ["Ps8Hashable", "numberOfSections"]
+- !private ["Ps8Hashable", "openURL"]
 - !private ["Ps8Hashable", "performFetch"]
 - !private ["Ps8Hashable", "persistentContainer"]
 - !private ["Ps8Hashable", "phone"]
@@ -695,11 +736,13 @@ depends-member:
 - !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
 - !private ["Ps16IteratorProtocol", "Element"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "characters"]
 - !private ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps25LosslessStringConvertible", "localizedCaseInsensitiveContains"]
 - !private ["Ps10MirrorPath", "IntegerLiteralType"]
 - !private ["Ps10MirrorPath", "Stride"]
 - !private ["Ps10MirrorPath", "_DisabledRangeIndex"]
+- !private ["Ps10MirrorPath", "characters"]
 - !private ["Ps10MirrorPath", "init"]
 - !private ["Ps10MirrorPath", "localizedCaseInsensitiveContains"]
 - !private ["Ps17MutableCollection", "Element"]
@@ -737,11 +780,13 @@ depends-member:
 - ["PSo8NSCoding", "Int"]
 - !private ["PSo8NSCoding", "NSFetchedResultsController"]
 - !private ["PSo8NSCoding", "NSSortDescriptor"]
+- !private ["PSo8NSCoding", "NSURL"]
 - !private ["PSo8NSCoding", "String"]
 - !private ["PSo8NSCoding", "UIApplication"]
 - !private ["PSo8NSCoding", "UIImage"]
 - !private ["PSo8NSCoding", "UIImageView"]
 - !private ["PSo8NSCoding", "UISearchController"]
+- !private ["PSo8NSCoding", "characters"]
 - !private ["PSo8NSCoding", "clipsToBounds"]
 - !private ["PSo8NSCoding", "contactImageData"]
 - ["PSo8NSCoding", "contatos"]
@@ -780,6 +825,7 @@ depends-member:
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", "viewWillAppear"]
 - ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "characters"]
 - !private ["PSo9NSCopying", "init"]
 - !private ["PSo9NSCopying", "localizedCaseInsensitiveContains"]
 - !private ["PSo9NSCopying", "sortDescriptors"]
@@ -787,6 +833,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "Int"]
 - !private ["PSo26NSExtensionRequestHandling", "NSFetchedResultsController"]
 - !private ["PSo26NSExtensionRequestHandling", "NSSortDescriptor"]
+- !private ["PSo26NSExtensionRequestHandling", "NSURL"]
 - !private ["PSo26NSExtensionRequestHandling", "String"]
 - !private ["PSo26NSExtensionRequestHandling", "UIApplication"]
 - !private ["PSo26NSExtensionRequestHandling", "UIImage"]
@@ -831,6 +878,7 @@ depends-member:
 - !private ["CSo15NSManagedObject", "name"]
 - !private ["CSo15NSManagedObject", "phone"]
 - ["CSo22NSManagedObjectContext", "deinit"]
+- !private ["PSo16NSMutableCopying", "characters"]
 - !private ["PSo16NSMutableCopying", "init"]
 - !private ["PSo16NSMutableCopying", "localizedCaseInsensitiveContains"]
 - !private ["CSo8NSObject", "AppDelegate"]
@@ -843,12 +891,15 @@ depends-member:
 - !private ["CSo8NSObject", "NSFetchRequest"]
 - ["CSo8NSObject", "NSFetchedResultsController"]
 - !private ["CSo8NSObject", "NSSortDescriptor"]
+- !private ["CSo8NSObject", "NSURL"]
 - ["CSo8NSObject", "String"]
 - !private ["CSo8NSObject", "UIApplication"]
 - !private ["CSo8NSObject", "UIImage"]
 - !private ["CSo8NSObject", "UIImageView"]
 - ["CSo8NSObject", "UISearchController"]
 - ["CSo8NSObject", "UITableView"]
+- !private ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "characters"]
 - !private ["CSo8NSObject", "clipsToBounds"]
 - !private ["CSo8NSObject", "contactImageData"]
 - ["CSo8NSObject", "contatos"]
@@ -874,6 +925,7 @@ depends-member:
 - !private ["CSo8NSObject", "navigationItem"]
 - !private ["CSo8NSObject", "nome"]
 - ["CSo8NSObject", "numberOfSections"]
+- !private ["CSo8NSObject", "openURL"]
 - !private ["CSo8NSObject", "performFetch"]
 - !private ["CSo8NSObject", "persistentContainer"]
 - !private ["CSo8NSObject", "phone"]
@@ -899,11 +951,13 @@ depends-member:
 - ["PSo16NSObjectProtocol", "Int"]
 - !private ["PSo16NSObjectProtocol", "NSFetchedResultsController"]
 - !private ["PSo16NSObjectProtocol", "NSSortDescriptor"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
 - !private ["PSo16NSObjectProtocol", "String"]
 - !private ["PSo16NSObjectProtocol", "UIApplication"]
 - !private ["PSo16NSObjectProtocol", "UIImage"]
 - !private ["PSo16NSObjectProtocol", "UIImageView"]
 - !private ["PSo16NSObjectProtocol", "UISearchController"]
+- !private ["PSo16NSObjectProtocol", "characters"]
 - !private ["PSo16NSObjectProtocol", "clipsToBounds"]
 - !private ["PSo16NSObjectProtocol", "contactImageData"]
 - ["PSo16NSObjectProtocol", "contatos"]
@@ -929,6 +983,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "navigationItem"]
 - !private ["PSo16NSObjectProtocol", "nome"]
 - ["PSo16NSObjectProtocol", "numberOfSections"]
+- !private ["PSo16NSObjectProtocol", "openURL"]
 - !private ["PSo16NSObjectProtocol", "performFetch"]
 - !private ["PSo16NSObjectProtocol", "persistentContainer"]
 - !private ["PSo16NSObjectProtocol", "phone"]
@@ -953,12 +1008,16 @@ depends-member:
 - ["PSo16NSObjectProtocol", ""]
 - !private ["CSo21NSPersistentContainer", "viewContext"]
 - !private ["CSo24NSPersistentStoreRequest", "sortDescriptors"]
+- !private ["PSo14NSSecureCoding", "characters"]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["PSo14NSSecureCoding", "localizedCaseInsensitiveContains"]
 - ["CSo16NSSortDescriptor", "deinit"]
 - !private ["CSo16NSSortDescriptor", "init"]
+- !private ["CSo8NSString", "characters"]
 - !private ["CSo8NSString", "init"]
 - !private ["CSo8NSString", "localizedCaseInsensitiveContains"]
+- ["CSo5NSURL", "deinit"]
+- !private ["CSo5NSURL", "init"]
 - ["Sq", "deinit"]
 - ["Sq", "some"]
 - !private ["Ps22RandomAccessCollection", "Element"]
@@ -997,6 +1056,7 @@ depends-member:
 - !private ["Vs17RandomAccessSlice", "Iterator"]
 - !private ["Vs17RandomAccessSlice", "SubSequence"]
 - !private ["Vs17RandomAccessSlice", "_Element"]
+- !private ["Vs5Range", "deinit"]
 - !private ["Ps26RangeReplaceableCollection", "Element"]
 - !private ["Ps26RangeReplaceableCollection", "Index"]
 - !private ["Ps26RangeReplaceableCollection", "IndexDistance"]
@@ -1052,11 +1112,14 @@ depends-member:
 - !private ["Ps10Strideable", "IntegerLiteralType"]
 - !private ["Ps10Strideable", "Stride"]
 - !private ["Ps10Strideable", "_DisabledRangeIndex"]
+- !private ["SS", "characters"]
 - ["SS", "deinit"]
 - !private ["SS", "init"]
 - !private ["SS", "localizedCaseInsensitiveContains"]
+- !private ["Ps16TextOutputStream", "characters"]
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps16TextOutputStream", "localizedCaseInsensitiveContains"]
+- !private ["Ps20TextOutputStreamable", "characters"]
 - !private ["Ps20TextOutputStreamable", "init"]
 - !private ["Ps20TextOutputStreamable", "localizedCaseInsensitiveContains"]
 - !private ["PSo29UIAccessibilityIdentification", "clipsToBounds"]
@@ -1085,6 +1148,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "Int"]
 - !private ["PSo21UIAppearanceContainer", "NSFetchedResultsController"]
 - !private ["PSo21UIAppearanceContainer", "NSSortDescriptor"]
+- !private ["PSo21UIAppearanceContainer", "NSURL"]
 - !private ["PSo21UIAppearanceContainer", "String"]
 - !private ["PSo21UIAppearanceContainer", "UIApplication"]
 - !private ["PSo21UIAppearanceContainer", "UIImage"]
@@ -1126,6 +1190,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", ""]
 - ["CSo13UIApplication", "deinit"]
 - !private ["CSo13UIApplication", "delegate"]
+- !private ["CSo13UIApplication", "openURL"]
 - !private ["CSo13UIApplication", "shared"]
 - !private ["PSo21UIApplicationDelegate", "persistentContainer"]
 - !private ["PSo16UIBarPositioning", "text"]
@@ -1133,6 +1198,7 @@ depends-member:
 - ["PSo18UIContentContainer", "Int"]
 - !private ["PSo18UIContentContainer", "NSFetchedResultsController"]
 - !private ["PSo18UIContentContainer", "NSSortDescriptor"]
+- !private ["PSo18UIContentContainer", "NSURL"]
 - !private ["PSo18UIContentContainer", "String"]
 - !private ["PSo18UIContentContainer", "UIApplication"]
 - !private ["PSo18UIContentContainer", "UIImage"]
@@ -1189,6 +1255,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "Int"]
 - !private ["PSo18UIFocusEnvironment", "NSFetchedResultsController"]
 - !private ["PSo18UIFocusEnvironment", "NSSortDescriptor"]
+- !private ["PSo18UIFocusEnvironment", "NSURL"]
 - !private ["PSo18UIFocusEnvironment", "String"]
 - !private ["PSo18UIFocusEnvironment", "UIApplication"]
 - !private ["PSo18UIFocusEnvironment", "UIImage"]
@@ -1263,12 +1330,14 @@ depends-member:
 - !private ["CSo11UIResponder", "NSFetchRequest"]
 - ["CSo11UIResponder", "NSFetchedResultsController"]
 - !private ["CSo11UIResponder", "NSSortDescriptor"]
+- !private ["CSo11UIResponder", "NSURL"]
 - ["CSo11UIResponder", "String"]
 - !private ["CSo11UIResponder", "UIApplication"]
 - !private ["CSo11UIResponder", "UIImage"]
 - !private ["CSo11UIResponder", "UIImageView"]
 - ["CSo11UIResponder", "UISearchController"]
 - ["CSo11UIResponder", "UITableView"]
+- !private ["CSo11UIResponder", "URL"]
 - !private ["CSo11UIResponder", "clipsToBounds"]
 - !private ["CSo11UIResponder", "contactImageData"]
 - ["CSo11UIResponder", "contatos"]
@@ -1289,6 +1358,7 @@ depends-member:
 - !private ["CSo11UIResponder", "navigationItem"]
 - !private ["CSo11UIResponder", "nome"]
 - ["CSo11UIResponder", "numberOfSections"]
+- !private ["CSo11UIResponder", "openURL"]
 - !private ["CSo11UIResponder", "persistentContainer"]
 - !private ["CSo11UIResponder", "print"]
 - !private ["CSo11UIResponder", "reloadData"]
@@ -1309,6 +1379,7 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "Int"]
 - !private ["PSo30UIResponderStandardEditActions", "NSFetchedResultsController"]
 - !private ["PSo30UIResponderStandardEditActions", "NSSortDescriptor"]
+- !private ["PSo30UIResponderStandardEditActions", "NSURL"]
 - !private ["PSo30UIResponderStandardEditActions", "String"]
 - !private ["PSo30UIResponderStandardEditActions", "UIApplication"]
 - !private ["PSo30UIResponderStandardEditActions", "UIImage"]
@@ -1334,6 +1405,7 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "navigationItem"]
 - !private ["PSo30UIResponderStandardEditActions", "nome"]
 - ["PSo30UIResponderStandardEditActions", "numberOfSections"]
+- !private ["PSo30UIResponderStandardEditActions", "openURL"]
 - !private ["PSo30UIResponderStandardEditActions", "persistentContainer"]
 - !private ["PSo30UIResponderStandardEditActions", "print"]
 - !private ["PSo30UIResponderStandardEditActions", "reloadData"]
@@ -1358,6 +1430,7 @@ depends-member:
 - ["PSo20UIScrollViewDelegate", "Int"]
 - !private ["PSo20UIScrollViewDelegate", "NSFetchedResultsController"]
 - !private ["PSo20UIScrollViewDelegate", "NSSortDescriptor"]
+- !private ["PSo20UIScrollViewDelegate", "NSURL"]
 - !private ["PSo20UIScrollViewDelegate", "String"]
 - !private ["PSo20UIScrollViewDelegate", "UIApplication"]
 - !private ["PSo20UIScrollViewDelegate", "UIImage"]
@@ -1394,6 +1467,7 @@ depends-member:
 - ["PSo23UISearchResultsUpdating", "Int"]
 - !private ["PSo23UISearchResultsUpdating", "NSFetchedResultsController"]
 - !private ["PSo23UISearchResultsUpdating", "NSSortDescriptor"]
+- !private ["PSo23UISearchResultsUpdating", "NSURL"]
 - !private ["PSo23UISearchResultsUpdating", "String"]
 - !private ["PSo23UISearchResultsUpdating", "UIApplication"]
 - !private ["PSo23UISearchResultsUpdating", "UIImage"]
@@ -1417,6 +1491,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "Int"]
 - !private ["PSo16UIStateRestoring", "NSFetchedResultsController"]
 - !private ["PSo16UIStateRestoring", "NSSortDescriptor"]
+- !private ["PSo16UIStateRestoring", "NSURL"]
 - !private ["PSo16UIStateRestoring", "String"]
 - !private ["PSo16UIStateRestoring", "UIApplication"]
 - !private ["PSo16UIStateRestoring", "UIImage"]
@@ -1464,12 +1539,14 @@ depends-member:
 - !private ["CSo21UITableViewController", "NSFetchRequest"]
 - ["CSo21UITableViewController", "NSFetchedResultsController"]
 - !private ["CSo21UITableViewController", "NSSortDescriptor"]
+- !private ["CSo21UITableViewController", "NSURL"]
 - ["CSo21UITableViewController", "String"]
 - !private ["CSo21UITableViewController", "UIApplication"]
 - !private ["CSo21UITableViewController", "UIImage"]
 - !private ["CSo21UITableViewController", "UIImageView"]
 - ["CSo21UITableViewController", "UISearchController"]
 - ["CSo21UITableViewController", "UITableView"]
+- !private ["CSo21UITableViewController", "URL"]
 - ["CSo21UITableViewController", "contatos"]
 - ["CSo21UITableViewController", "deinit"]
 - ["CSo21UITableViewController", "didReceiveMemoryWarning"]
@@ -1494,6 +1571,7 @@ depends-member:
 - ["PSo21UITableViewDataSource", "Int"]
 - !private ["PSo21UITableViewDataSource", "NSFetchedResultsController"]
 - !private ["PSo21UITableViewDataSource", "NSSortDescriptor"]
+- !private ["PSo21UITableViewDataSource", "NSURL"]
 - !private ["PSo21UITableViewDataSource", "String"]
 - !private ["PSo21UITableViewDataSource", "UIApplication"]
 - !private ["PSo21UITableViewDataSource", "UIImage"]
@@ -1522,6 +1600,7 @@ depends-member:
 - ["PSo19UITableViewDelegate", "Int"]
 - !private ["PSo19UITableViewDelegate", "NSFetchedResultsController"]
 - !private ["PSo19UITableViewDelegate", "NSSortDescriptor"]
+- !private ["PSo19UITableViewDelegate", "NSURL"]
 - !private ["PSo19UITableViewDelegate", "String"]
 - !private ["PSo19UITableViewDelegate", "UIApplication"]
 - !private ["PSo19UITableViewDelegate", "UIImage"]
@@ -1552,6 +1631,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "Int"]
 - !private ["PSo18UITraitEnvironment", "NSFetchedResultsController"]
 - !private ["PSo18UITraitEnvironment", "NSSortDescriptor"]
+- !private ["PSo18UITraitEnvironment", "NSURL"]
 - !private ["PSo18UITraitEnvironment", "String"]
 - !private ["PSo18UITraitEnvironment", "UIApplication"]
 - !private ["PSo18UITraitEnvironment", "UIImage"]
@@ -1612,12 +1692,14 @@ depends-member:
 - !private ["CSo16UIViewController", "NSFetchRequest"]
 - ["CSo16UIViewController", "NSFetchedResultsController"]
 - !private ["CSo16UIViewController", "NSSortDescriptor"]
+- !private ["CSo16UIViewController", "NSURL"]
 - ["CSo16UIViewController", "String"]
 - !private ["CSo16UIViewController", "UIApplication"]
 - !private ["CSo16UIViewController", "UIImage"]
 - !private ["CSo16UIViewController", "UIImageView"]
 - ["CSo16UIViewController", "UISearchController"]
 - ["CSo16UIViewController", "UITableView"]
+- !private ["CSo16UIViewController", "URL"]
 - ["CSo16UIViewController", "contatos"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - !private ["CSo16UIViewController", "dimsBackgroundDuringPresentation"]
@@ -1656,6 +1738,7 @@ depends-member:
 - !private ["Vs6UInt32", "deinit"]
 - !private ["Vs6UInt64", "deinit"]
 - !private ["Vs5UInt8", "deinit"]
+- ["V10Foundation3URL", "deinit"]
 - !private ["Sc", "deinit"]
 - !private ["Ps14_ArrayProtocol", "Element"]
 - !private ["Ps14_ArrayProtocol", "Index"]
@@ -1695,18 +1778,23 @@ depends-member:
 - !private ["Ps24_DestructorSafeContainer", "phone"]
 - !private ["Ps24_DestructorSafeContainer", "subscript"]
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "characters"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "localizedCaseInsensitiveContains"]
 - !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "IntegerLiteralType"]
 - !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
 - !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "characters"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "localizedCaseInsensitiveContains"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "characters"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "localizedCaseInsensitiveContains"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "characters"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "localizedCaseInsensitiveContains"]
 - !private ["Ps26_ExpressibleByImageLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "characters"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "localizedCaseInsensitiveContains"]
 - !private ["Ps9_Hashable", "EmprestimoMO"]
@@ -1714,6 +1802,7 @@ depends-member:
 - !private ["Ps9_Hashable", "IntegerLiteralType"]
 - !private ["Ps9_Hashable", "NSFetchedResultsController"]
 - !private ["Ps9_Hashable", "NSSortDescriptor"]
+- !private ["Ps9_Hashable", "NSURL"]
 - !private ["Ps9_Hashable", "Stride"]
 - !private ["Ps9_Hashable", "String"]
 - !private ["Ps9_Hashable", "UIApplication"]
@@ -1722,6 +1811,7 @@ depends-member:
 - !private ["Ps9_Hashable", "UISearchController"]
 - !private ["Ps9_Hashable", "_DisabledRangeIndex"]
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "characters"]
 - !private ["Ps9_Hashable", "clipsToBounds"]
 - !private ["Ps9_Hashable", "contactImageData"]
 - ["Ps9_Hashable", "contatos"]
@@ -1747,6 +1837,7 @@ depends-member:
 - !private ["Ps9_Hashable", "navigationItem"]
 - !private ["Ps9_Hashable", "nome"]
 - ["Ps9_Hashable", "numberOfSections"]
+- !private ["Ps9_Hashable", "openURL"]
 - !private ["Ps9_Hashable", "performFetch"]
 - !private ["Ps9_Hashable", "persistentContainer"]
 - !private ["Ps9_Hashable", "phone"]
@@ -1790,12 +1881,14 @@ depends-member:
 - !private ["Ps21_ObjectiveCBridgeable", "_Element"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "characters"]
 - !private ["Ps21_ObjectiveCBridgeable", "count"]
 - !private ["Ps21_ObjectiveCBridgeable", "filter"]
 - ["Ps21_ObjectiveCBridgeable", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "localizedCaseInsensitiveContains"]
 - !private ["Ps21_ObjectiveCBridgeable", "row"]
 - !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
 - !private ["Ps14_SignedInteger", "IntegerLiteralType"]
 - !private ["Ps14_SignedInteger", "Stride"]
 - !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
@@ -1818,11 +1911,15 @@ depends-nominal:
 - "V12CoreGraphics7CGFloat"
 - !private "PSo15CNKeyDescriptor"
 - "Ps7CVarArg"
-- !private "Vs9Character"
+- "Vs9Character"
+- !private "VSS13CharacterView"
+- !private "Vs11ClosedRange"
 - "Ps10Collection"
 - !private "Ps10Comparable"
 - "C10Devolve_Ai20ContactTableViewCell"
 - "C10Devolve_Ai21ContactViewController"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
 - "Ps28CustomDebugStringConvertible"
 - !private "Ps29CustomPlaygroundQuickLookable"
 - "Ps17CustomReflectable"
@@ -1879,10 +1976,12 @@ depends-nominal:
 - !private "PSo14NSSecureCoding"
 - "CSo16NSSortDescriptor"
 - !private "CSo8NSString"
+- "CSo5NSURL"
 - "Sq"
 - "Ps22RandomAccessCollection"
 - "Ps21RandomAccessIndexable"
 - !private "Vs17RandomAccessSlice"
+- !private "Vs5Range"
 - "Ps26RangeReplaceableCollection"
 - "Ps25RangeReplaceableIndexable"
 - !private "P10Foundation20ReferenceConvertible"
@@ -1937,6 +2036,7 @@ depends-nominal:
 - !private "Vs6UInt32"
 - !private "Vs6UInt64"
 - !private "Vs5UInt8"
+- "V10Foundation3URL"
 - !private "Sc"
 - "Ps14_ArrayProtocol"
 - !private "Ps37_DefaultCustomPlaygroundQuickLookable"
@@ -1954,6 +2054,7 @@ depends-nominal:
 - !private "Ps8_Integer"
 - !private "Ps18_IntegerArithmetic"
 - "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
 - !private "Ps14_SignedInteger"
 - !private "Ps11_Strideable"
 depends-dynamic-lookup:
@@ -1969,4 +2070,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
-interface-hash: "8cfd5870d869749b8233c6c9f64ab143"
+interface-hash: "cfa9635b5eade6414b3dfda8cc816ca7"

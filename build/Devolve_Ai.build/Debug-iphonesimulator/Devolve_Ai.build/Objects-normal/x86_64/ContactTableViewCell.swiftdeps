@@ -6,17 +6,17 @@ provides-nominal:
 provides-member:
 - ["C10Devolve_Ai20ContactTableViewCell", ""]
 provides-dynamic-lookup:
+- "nome"
 - "itens"
 - "contactImageData"
-- "awakeFromNib"
 - "setSelected"
-- "nome"
+- "awakeFromNib"
 depends-top-level:
-- "UIImageView"
-- "Bool"
-- "UITableViewCell"
 - "UILabel"
+- "UITableViewCell"
+- "UIImageView"
 - "ContactTableViewCell"
+- "Bool"
 depends-member:
 - ["Ps9AnyObject", "awakeFromNib"]
 - ["Ps9AnyObject", "contactImageData"]

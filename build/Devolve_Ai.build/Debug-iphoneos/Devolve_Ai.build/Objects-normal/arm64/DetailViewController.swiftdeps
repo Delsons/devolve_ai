@@ -6,41 +6,55 @@ provides-nominal:
 provides-member:
 - ["C10Devolve_Ai20DetailViewController", ""]
 provides-dynamic-lookup:
-- "data"
-- "itens"
-- "didReceiveMemoryWarning"
 - "titulo"
-- "imagem"
-- "descricao"
-- "contador"
 - "nome"
-- "viewDidLoad"
 - "emprestimo"
+- "descricao"
+- "data"
+- "viewDidLoad"
+- "call"
+- "imagem"
 - "qtd"
+- "didReceiveMemoryWarning"
+- "contador"
+- "itens"
 depends-top-level:
-- "UIViewController"
-- !private "Data"
-- "Int"
-- "Loan"
-- !private "BooleanLiteralType"
-- "UITextView"
-- !private "StringLiteralType"
 - !private "String"
-- !private "+"
-- "UIImageView"
-- !private "UIImage"
-- !private "=="
+- "Loan"
+- "UITextView"
+- "AnyObject"
 - "AssignmentPrecedence"
-- !private "DateFormatter"
+- !private "Data"
 - "CastingPrecedence"
+- !private "=="
+- !private "~="
+- !private "UnicodeScalarType"
+- !private "UIApplication"
+- !private "UIImage"
+- "UIViewController"
+- !private "StringLiteralType"
 - !private "Date"
+- !private "URL"
 - "UILabel"
+- !private "ExtendedGraphemeClusterType"
+- !private "NSURL"
+- !private "DateFormatter"
 - "DetailViewController"
+- !private "+"
+- "Int"
+- !private "!="
+- !private "print"
+- "UIImageView"
+- !private "BooleanLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "DateFormatter"]
 - ["Ps9AnyObject", "Loan"]
+- !private ["Ps9AnyObject", "NSURL"]
 - !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "UIApplication"]
 - !private ["Ps9AnyObject", "UIImage"]
+- ["Ps9AnyObject", "call"]
+- !private ["Ps9AnyObject", "characters"]
 - ["Ps9AnyObject", "contador"]
 - ["Ps9AnyObject", "data"]
 - !private ["Ps9AnyObject", "date"]
@@ -58,22 +72,35 @@ depends-member:
 - !private ["Ps9AnyObject", "navigationController"]
 - !private ["Ps9AnyObject", "navigationItem"]
 - ["Ps9AnyObject", "nome"]
+- !private ["Ps9AnyObject", "openURL"]
+- !private ["Ps9AnyObject", "phoneNumber"]
+- !private ["Ps9AnyObject", "print"]
 - ["Ps9AnyObject", "qtd"]
+- !private ["Ps9AnyObject", "shared"]
 - !private ["Ps9AnyObject", "string"]
 - !private ["Ps9AnyObject", "text"]
 - !private ["Ps9AnyObject", "title"]
 - ["Ps9AnyObject", "titulo"]
 - ["Ps9AnyObject", "viewDidLoad"]
 - ["Ps9AnyObject", ""]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - ["Sb", "deinit"]
 - !private ["PSo15CALayerDelegate", "image"]
 - !private ["PSo15CALayerDelegate", "text"]
+- !private ["PSo15CNKeyDescriptor", "characters"]
 - !private ["PSo15CNKeyDescriptor", "init"]
 - !private ["Ps7CVarArg", "DateFormatter"]
 - ["Ps7CVarArg", "Loan"]
+- !private ["Ps7CVarArg", "NSURL"]
 - !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "UIApplication"]
 - !private ["Ps7CVarArg", "UIImage"]
+- ["Ps7CVarArg", "call"]
+- !private ["Ps7CVarArg", "characters"]
 - ["Ps7CVarArg", "contador"]
 - ["Ps7CVarArg", "data"]
 - !private ["Ps7CVarArg", "date"]
@@ -91,18 +118,36 @@ depends-member:
 - !private ["Ps7CVarArg", "navigationController"]
 - !private ["Ps7CVarArg", "navigationItem"]
 - ["Ps7CVarArg", "nome"]
+- !private ["Ps7CVarArg", "openURL"]
+- !private ["Ps7CVarArg", "phoneNumber"]
+- !private ["Ps7CVarArg", "print"]
 - ["Ps7CVarArg", "qtd"]
+- !private ["Ps7CVarArg", "shared"]
 - !private ["Ps7CVarArg", "string"]
 - !private ["Ps7CVarArg", "text"]
 - !private ["Ps7CVarArg", "title"]
 - ["Ps7CVarArg", "titulo"]
 - ["Ps7CVarArg", "viewDidLoad"]
 - ["Ps7CVarArg", ""]
+- ["Vs9Character", "deinit"]
+- !private ["Vs9Character", "init"]
+- !private ["VSS13CharacterView", "Iterator"]
+- !private ["VSS13CharacterView", "_Element"]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Comparable", "characters"]
 - !private ["Ps10Comparable", "init"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
 - !private ["Ps28CustomDebugStringConvertible", "DateFormatter"]
 - ["Ps28CustomDebugStringConvertible", "Loan"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURL"]
 - !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
 - !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- ["Ps28CustomDebugStringConvertible", "call"]
+- !private ["Ps28CustomDebugStringConvertible", "characters"]
 - ["Ps28CustomDebugStringConvertible", "contador"]
 - ["Ps28CustomDebugStringConvertible", "data"]
 - !private ["Ps28CustomDebugStringConvertible", "date"]
@@ -120,7 +165,12 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "navigationController"]
 - !private ["Ps28CustomDebugStringConvertible", "navigationItem"]
 - ["Ps28CustomDebugStringConvertible", "nome"]
+- !private ["Ps28CustomDebugStringConvertible", "openURL"]
+- !private ["Ps28CustomDebugStringConvertible", "phoneNumber"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
 - ["Ps28CustomDebugStringConvertible", "qtd"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- ["Ps28CustomDebugStringConvertible", "some"]
 - !private ["Ps28CustomDebugStringConvertible", "string"]
 - !private ["Ps28CustomDebugStringConvertible", "text"]
 - !private ["Ps28CustomDebugStringConvertible", "title"]
@@ -128,14 +178,21 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "characters"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "characters"]
 - !private ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
 - !private ["Ps23CustomStringConvertible", "DateFormatter"]
 - ["Ps23CustomStringConvertible", "Loan"]
+- !private ["Ps23CustomStringConvertible", "NSURL"]
 - !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "UIApplication"]
 - !private ["Ps23CustomStringConvertible", "UIImage"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "call"]
+- !private ["Ps23CustomStringConvertible", "characters"]
 - ["Ps23CustomStringConvertible", "contador"]
 - ["Ps23CustomStringConvertible", "data"]
 - !private ["Ps23CustomStringConvertible", "date"]
@@ -153,7 +210,11 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "navigationController"]
 - !private ["Ps23CustomStringConvertible", "navigationItem"]
 - ["Ps23CustomStringConvertible", "nome"]
+- !private ["Ps23CustomStringConvertible", "openURL"]
+- !private ["Ps23CustomStringConvertible", "phoneNumber"]
+- !private ["Ps23CustomStringConvertible", "print"]
 - ["Ps23CustomStringConvertible", "qtd"]
+- !private ["Ps23CustomStringConvertible", "shared"]
 - !private ["Ps23CustomStringConvertible", "string"]
 - !private ["Ps23CustomStringConvertible", "text"]
 - !private ["Ps23CustomStringConvertible", "title"]
@@ -166,16 +227,21 @@ depends-member:
 - ["CSo13DateFormatter", "deinit"]
 - !private ["CSo13DateFormatter", "init"]
 - !private ["CSo13DateFormatter", "string"]
+- ["C10Devolve_Ai20DetailViewController", "AnyObject"]
 - !private ["C10Devolve_Ai20DetailViewController", "Data"]
 - !private ["C10Devolve_Ai20DetailViewController", "Date"]
 - !private ["C10Devolve_Ai20DetailViewController", "DateFormatter"]
 - ["C10Devolve_Ai20DetailViewController", "Int"]
 - ["C10Devolve_Ai20DetailViewController", "Loan"]
+- !private ["C10Devolve_Ai20DetailViewController", "NSURL"]
 - !private ["C10Devolve_Ai20DetailViewController", "String"]
+- !private ["C10Devolve_Ai20DetailViewController", "UIApplication"]
 - !private ["C10Devolve_Ai20DetailViewController", "UIImage"]
 - ["C10Devolve_Ai20DetailViewController", "UIImageView"]
 - ["C10Devolve_Ai20DetailViewController", "UILabel"]
 - ["C10Devolve_Ai20DetailViewController", "UITextView"]
+- !private ["C10Devolve_Ai20DetailViewController", "URL"]
+- ["C10Devolve_Ai20DetailViewController", "call"]
 - ["C10Devolve_Ai20DetailViewController", "contador"]
 - ["C10Devolve_Ai20DetailViewController", "data"]
 - !private ["C10Devolve_Ai20DetailViewController", "definesPresentationContext"]
@@ -189,14 +255,19 @@ depends-member:
 - !private ["C10Devolve_Ai20DetailViewController", "navigationController"]
 - !private ["C10Devolve_Ai20DetailViewController", "navigationItem"]
 - ["C10Devolve_Ai20DetailViewController", "nome"]
+- !private ["C10Devolve_Ai20DetailViewController", "print"]
 - ["C10Devolve_Ai20DetailViewController", "qtd"]
 - ["C10Devolve_Ai20DetailViewController", "titulo"]
 - ["C10Devolve_Ai20DetailViewController", "viewDidLoad"]
 - !private ["Ps9Equatable", "DateFormatter"]
 - ["Ps9Equatable", "Loan"]
+- !private ["Ps9Equatable", "NSURL"]
 - !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "UIApplication"]
 - !private ["Ps9Equatable", "UIImage"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "call"]
+- !private ["Ps9Equatable", "characters"]
 - ["Ps9Equatable", "contador"]
 - ["Ps9Equatable", "data"]
 - !private ["Ps9Equatable", "date"]
@@ -214,7 +285,11 @@ depends-member:
 - !private ["Ps9Equatable", "navigationController"]
 - !private ["Ps9Equatable", "navigationItem"]
 - ["Ps9Equatable", "nome"]
+- !private ["Ps9Equatable", "openURL"]
+- !private ["Ps9Equatable", "phoneNumber"]
+- !private ["Ps9Equatable", "print"]
 - ["Ps9Equatable", "qtd"]
+- !private ["Ps9Equatable", "shared"]
 - !private ["Ps9Equatable", "string"]
 - !private ["Ps9Equatable", "text"]
 - !private ["Ps9Equatable", "title"]
@@ -222,18 +297,27 @@ depends-member:
 - ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", ""]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "characters"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps32ExpressibleByStringInterpolation", "characters"]
 - !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "characters"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "characters"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["CSo9Formatter", "dateFormat"]
 - !private ["CSo9Formatter", "init"]
 - !private ["CSo9Formatter", "string"]
 - !private ["Ps8Hashable", "DateFormatter"]
 - ["Ps8Hashable", "Loan"]
+- !private ["Ps8Hashable", "NSURL"]
 - !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "UIApplication"]
 - !private ["Ps8Hashable", "UIImage"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "call"]
+- !private ["Ps8Hashable", "characters"]
 - ["Ps8Hashable", "contador"]
 - ["Ps8Hashable", "data"]
 - !private ["Ps8Hashable", "date"]
@@ -251,7 +335,11 @@ depends-member:
 - !private ["Ps8Hashable", "navigationController"]
 - !private ["Ps8Hashable", "navigationItem"]
 - ["Ps8Hashable", "nome"]
+- !private ["Ps8Hashable", "openURL"]
+- !private ["Ps8Hashable", "phoneNumber"]
+- !private ["Ps8Hashable", "print"]
 - ["Ps8Hashable", "qtd"]
+- !private ["Ps8Hashable", "shared"]
 - !private ["Ps8Hashable", "string"]
 - !private ["Ps8Hashable", "text"]
 - !private ["Ps8Hashable", "title"]
@@ -259,22 +347,35 @@ depends-member:
 - ["Ps8Hashable", "viewDidLoad"]
 - ["Ps8Hashable", ""]
 - ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Vs16IndexingIterator", "Element"]
 - ["Si", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
 - !private ["C10Devolve_Ai4Loan", "date"]
 - ["C10Devolve_Ai4Loan", "deinit"]
 - !private ["C10Devolve_Ai4Loan", "descricao"]
 - !private ["C10Devolve_Ai4Loan", "imageData"]
 - ["C10Devolve_Ai4Loan", "init"]
 - !private ["C10Devolve_Ai4Loan", "nome"]
+- !private ["C10Devolve_Ai4Loan", "phoneNumber"]
 - !private ["C10Devolve_Ai4Loan", "titulo"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "characters"]
 - !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "characters"]
 - !private ["Ps10MirrorPath", "init"]
 - ["CSo7NSCoder", "deinit"]
 - !private ["PSo8NSCoding", "DateFormatter"]
 - ["PSo8NSCoding", "Loan"]
+- !private ["PSo8NSCoding", "NSURL"]
 - !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "UIApplication"]
 - !private ["PSo8NSCoding", "UIImage"]
+- ["PSo8NSCoding", "call"]
+- !private ["PSo8NSCoding", "characters"]
 - ["PSo8NSCoding", "contador"]
 - ["PSo8NSCoding", "data"]
 - !private ["PSo8NSCoding", "dateFormat"]
@@ -290,6 +391,7 @@ depends-member:
 - !private ["PSo8NSCoding", "navigationController"]
 - !private ["PSo8NSCoding", "navigationItem"]
 - ["PSo8NSCoding", "nome"]
+- !private ["PSo8NSCoding", "print"]
 - ["PSo8NSCoding", "qtd"]
 - !private ["PSo8NSCoding", "string"]
 - !private ["PSo8NSCoding", "text"]
@@ -297,13 +399,17 @@ depends-member:
 - ["PSo8NSCoding", "titulo"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "characters"]
 - !private ["PSo9NSCopying", "dateFormat"]
 - !private ["PSo9NSCopying", "init"]
 - !private ["PSo9NSCopying", "string"]
 - !private ["PSo26NSExtensionRequestHandling", "DateFormatter"]
 - ["PSo26NSExtensionRequestHandling", "Loan"]
+- !private ["PSo26NSExtensionRequestHandling", "NSURL"]
 - !private ["PSo26NSExtensionRequestHandling", "String"]
+- !private ["PSo26NSExtensionRequestHandling", "UIApplication"]
 - !private ["PSo26NSExtensionRequestHandling", "UIImage"]
+- ["PSo26NSExtensionRequestHandling", "call"]
 - ["PSo26NSExtensionRequestHandling", "contador"]
 - ["PSo26NSExtensionRequestHandling", "data"]
 - !private ["PSo26NSExtensionRequestHandling", "definesPresentationContext"]
@@ -317,6 +423,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "navigationController"]
 - !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
 - ["PSo26NSExtensionRequestHandling", "nome"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "qtd"]
 - ["PSo26NSExtensionRequestHandling", "titulo"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
@@ -326,18 +433,26 @@ depends-member:
 - !private ["PSo34NSFetchedResultsControllerDelegate", "imageData"]
 - ["PSo34NSFetchedResultsControllerDelegate", "init"]
 - !private ["PSo34NSFetchedResultsControllerDelegate", "nome"]
+- !private ["PSo34NSFetchedResultsControllerDelegate", "phoneNumber"]
 - !private ["PSo34NSFetchedResultsControllerDelegate", "titulo"]
+- !private ["PSo16NSMutableCopying", "characters"]
 - !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
 - !private ["CSo8NSObject", "Data"]
 - !private ["CSo8NSObject", "Date"]
 - !private ["CSo8NSObject", "DateFormatter"]
 - ["CSo8NSObject", "Int"]
 - ["CSo8NSObject", "Loan"]
+- !private ["CSo8NSObject", "NSURL"]
 - !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIApplication"]
 - !private ["CSo8NSObject", "UIImage"]
 - ["CSo8NSObject", "UIImageView"]
 - ["CSo8NSObject", "UILabel"]
 - ["CSo8NSObject", "UITextView"]
+- !private ["CSo8NSObject", "URL"]
+- ["CSo8NSObject", "call"]
+- !private ["CSo8NSObject", "characters"]
 - ["CSo8NSObject", "contador"]
 - ["CSo8NSObject", "data"]
 - !private ["CSo8NSObject", "date"]
@@ -355,7 +470,11 @@ depends-member:
 - !private ["CSo8NSObject", "navigationController"]
 - !private ["CSo8NSObject", "navigationItem"]
 - ["CSo8NSObject", "nome"]
+- !private ["CSo8NSObject", "openURL"]
+- !private ["CSo8NSObject", "phoneNumber"]
+- !private ["CSo8NSObject", "print"]
 - ["CSo8NSObject", "qtd"]
+- !private ["CSo8NSObject", "shared"]
 - !private ["CSo8NSObject", "string"]
 - !private ["CSo8NSObject", "text"]
 - !private ["CSo8NSObject", "title"]
@@ -363,8 +482,12 @@ depends-member:
 - ["CSo8NSObject", "viewDidLoad"]
 - !private ["PSo16NSObjectProtocol", "DateFormatter"]
 - ["PSo16NSObjectProtocol", "Loan"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
 - !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
 - !private ["PSo16NSObjectProtocol", "UIImage"]
+- ["PSo16NSObjectProtocol", "call"]
+- !private ["PSo16NSObjectProtocol", "characters"]
 - ["PSo16NSObjectProtocol", "contador"]
 - ["PSo16NSObjectProtocol", "data"]
 - !private ["PSo16NSObjectProtocol", "date"]
@@ -382,19 +505,39 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "navigationController"]
 - !private ["PSo16NSObjectProtocol", "navigationItem"]
 - ["PSo16NSObjectProtocol", "nome"]
+- !private ["PSo16NSObjectProtocol", "openURL"]
+- !private ["PSo16NSObjectProtocol", "phoneNumber"]
+- !private ["PSo16NSObjectProtocol", "print"]
 - ["PSo16NSObjectProtocol", "qtd"]
+- !private ["PSo16NSObjectProtocol", "shared"]
 - !private ["PSo16NSObjectProtocol", "string"]
 - !private ["PSo16NSObjectProtocol", "text"]
 - !private ["PSo16NSObjectProtocol", "title"]
 - ["PSo16NSObjectProtocol", "titulo"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "characters"]
 - !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "characters"]
 - !private ["CSo8NSString", "init"]
+- ["CSo5NSURL", "deinit"]
+- !private ["CSo5NSURL", "init"]
 - ["Sq", "deinit"]
+- ["Sq", "some"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["SS", "characters"]
 - ["SS", "deinit"]
 - !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "characters"]
 - !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "characters"]
 - !private ["Ps20TextOutputStreamable", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "image"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
@@ -403,8 +546,11 @@ depends-member:
 - !private ["PSo12UIAppearance", "text"]
 - !private ["PSo21UIAppearanceContainer", "DateFormatter"]
 - ["PSo21UIAppearanceContainer", "Loan"]
+- !private ["PSo21UIAppearanceContainer", "NSURL"]
 - !private ["PSo21UIAppearanceContainer", "String"]
+- !private ["PSo21UIAppearanceContainer", "UIApplication"]
 - !private ["PSo21UIAppearanceContainer", "UIImage"]
+- ["PSo21UIAppearanceContainer", "call"]
 - ["PSo21UIAppearanceContainer", "contador"]
 - ["PSo21UIAppearanceContainer", "data"]
 - !private ["PSo21UIAppearanceContainer", "definesPresentationContext"]
@@ -419,15 +565,22 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "navigationController"]
 - !private ["PSo21UIAppearanceContainer", "navigationItem"]
 - ["PSo21UIAppearanceContainer", "nome"]
+- !private ["PSo21UIAppearanceContainer", "print"]
 - ["PSo21UIAppearanceContainer", "qtd"]
 - !private ["PSo21UIAppearanceContainer", "text"]
 - ["PSo21UIAppearanceContainer", "titulo"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
+- ["CSo13UIApplication", "deinit"]
+- !private ["CSo13UIApplication", "openURL"]
+- !private ["CSo13UIApplication", "shared"]
 - !private ["PSo18UIContentContainer", "DateFormatter"]
 - ["PSo18UIContentContainer", "Loan"]
+- !private ["PSo18UIContentContainer", "NSURL"]
 - !private ["PSo18UIContentContainer", "String"]
+- !private ["PSo18UIContentContainer", "UIApplication"]
 - !private ["PSo18UIContentContainer", "UIImage"]
+- ["PSo18UIContentContainer", "call"]
 - ["PSo18UIContentContainer", "contador"]
 - ["PSo18UIContentContainer", "data"]
 - !private ["PSo18UIContentContainer", "definesPresentationContext"]
@@ -441,6 +594,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "navigationController"]
 - !private ["PSo18UIContentContainer", "navigationItem"]
 - ["PSo18UIContentContainer", "nome"]
+- !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "qtd"]
 - ["PSo18UIContentContainer", "titulo"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
@@ -452,8 +606,11 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "text"]
 - !private ["PSo18UIFocusEnvironment", "DateFormatter"]
 - ["PSo18UIFocusEnvironment", "Loan"]
+- !private ["PSo18UIFocusEnvironment", "NSURL"]
 - !private ["PSo18UIFocusEnvironment", "String"]
+- !private ["PSo18UIFocusEnvironment", "UIApplication"]
 - !private ["PSo18UIFocusEnvironment", "UIImage"]
+- ["PSo18UIFocusEnvironment", "call"]
 - ["PSo18UIFocusEnvironment", "contador"]
 - ["PSo18UIFocusEnvironment", "data"]
 - !private ["PSo18UIFocusEnvironment", "definesPresentationContext"]
@@ -468,6 +625,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "navigationController"]
 - !private ["PSo18UIFocusEnvironment", "navigationItem"]
 - ["PSo18UIFocusEnvironment", "nome"]
+- !private ["PSo18UIFocusEnvironment", "print"]
 - ["PSo18UIFocusEnvironment", "qtd"]
 - !private ["PSo18UIFocusEnvironment", "text"]
 - ["PSo18UIFocusEnvironment", "titulo"]
@@ -483,16 +641,21 @@ depends-member:
 - !private ["CSo22UINavigationController", "hidesBarsOnSwipe"]
 - ["CSo16UINavigationItem", "deinit"]
 - !private ["CSo16UINavigationItem", "title"]
+- ["CSo11UIResponder", "AnyObject"]
 - !private ["CSo11UIResponder", "Data"]
 - !private ["CSo11UIResponder", "Date"]
 - !private ["CSo11UIResponder", "DateFormatter"]
 - ["CSo11UIResponder", "Int"]
 - ["CSo11UIResponder", "Loan"]
+- !private ["CSo11UIResponder", "NSURL"]
 - !private ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIApplication"]
 - !private ["CSo11UIResponder", "UIImage"]
 - ["CSo11UIResponder", "UIImageView"]
 - ["CSo11UIResponder", "UILabel"]
 - ["CSo11UIResponder", "UITextView"]
+- !private ["CSo11UIResponder", "URL"]
+- ["CSo11UIResponder", "call"]
 - ["CSo11UIResponder", "contador"]
 - ["CSo11UIResponder", "data"]
 - !private ["CSo11UIResponder", "definesPresentationContext"]
@@ -507,14 +670,20 @@ depends-member:
 - !private ["CSo11UIResponder", "navigationController"]
 - !private ["CSo11UIResponder", "navigationItem"]
 - ["CSo11UIResponder", "nome"]
+- !private ["CSo11UIResponder", "openURL"]
+- !private ["CSo11UIResponder", "print"]
 - ["CSo11UIResponder", "qtd"]
+- !private ["CSo11UIResponder", "shared"]
 - !private ["CSo11UIResponder", "text"]
 - ["CSo11UIResponder", "titulo"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - !private ["PSo30UIResponderStandardEditActions", "DateFormatter"]
 - ["PSo30UIResponderStandardEditActions", "Loan"]
+- !private ["PSo30UIResponderStandardEditActions", "NSURL"]
 - !private ["PSo30UIResponderStandardEditActions", "String"]
+- !private ["PSo30UIResponderStandardEditActions", "UIApplication"]
 - !private ["PSo30UIResponderStandardEditActions", "UIImage"]
+- ["PSo30UIResponderStandardEditActions", "call"]
 - ["PSo30UIResponderStandardEditActions", "contador"]
 - ["PSo30UIResponderStandardEditActions", "data"]
 - !private ["PSo30UIResponderStandardEditActions", "definesPresentationContext"]
@@ -529,7 +698,10 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "navigationController"]
 - !private ["PSo30UIResponderStandardEditActions", "navigationItem"]
 - ["PSo30UIResponderStandardEditActions", "nome"]
+- !private ["PSo30UIResponderStandardEditActions", "openURL"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
 - ["PSo30UIResponderStandardEditActions", "qtd"]
+- !private ["PSo30UIResponderStandardEditActions", "shared"]
 - !private ["PSo30UIResponderStandardEditActions", "text"]
 - ["PSo30UIResponderStandardEditActions", "titulo"]
 - ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
@@ -537,8 +709,11 @@ depends-member:
 - !private ["CSo12UIScrollView", "text"]
 - !private ["PSo16UIStateRestoring", "DateFormatter"]
 - ["PSo16UIStateRestoring", "Loan"]
+- !private ["PSo16UIStateRestoring", "NSURL"]
 - !private ["PSo16UIStateRestoring", "String"]
+- !private ["PSo16UIStateRestoring", "UIApplication"]
 - !private ["PSo16UIStateRestoring", "UIImage"]
+- ["PSo16UIStateRestoring", "call"]
 - ["PSo16UIStateRestoring", "contador"]
 - ["PSo16UIStateRestoring", "data"]
 - !private ["PSo16UIStateRestoring", "definesPresentationContext"]
@@ -552,6 +727,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "navigationController"]
 - !private ["PSo16UIStateRestoring", "navigationItem"]
 - ["PSo16UIStateRestoring", "nome"]
+- !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "qtd"]
 - ["PSo16UIStateRestoring", "titulo"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
@@ -561,8 +737,11 @@ depends-member:
 - !private ["CSo10UITextView", "text"]
 - !private ["PSo18UITraitEnvironment", "DateFormatter"]
 - ["PSo18UITraitEnvironment", "Loan"]
+- !private ["PSo18UITraitEnvironment", "NSURL"]
 - !private ["PSo18UITraitEnvironment", "String"]
+- !private ["PSo18UITraitEnvironment", "UIApplication"]
 - !private ["PSo18UITraitEnvironment", "UIImage"]
+- ["PSo18UITraitEnvironment", "call"]
 - ["PSo18UITraitEnvironment", "contador"]
 - ["PSo18UITraitEnvironment", "data"]
 - !private ["PSo18UITraitEnvironment", "definesPresentationContext"]
@@ -577,6 +756,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "navigationController"]
 - !private ["PSo18UITraitEnvironment", "navigationItem"]
 - ["PSo18UITraitEnvironment", "nome"]
+- !private ["PSo18UITraitEnvironment", "print"]
 - ["PSo18UITraitEnvironment", "qtd"]
 - !private ["PSo18UITraitEnvironment", "text"]
 - ["PSo18UITraitEnvironment", "titulo"]
@@ -584,16 +764,21 @@ depends-member:
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "image"]
 - !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
 - !private ["CSo16UIViewController", "Data"]
 - !private ["CSo16UIViewController", "Date"]
 - !private ["CSo16UIViewController", "DateFormatter"]
 - ["CSo16UIViewController", "Int"]
 - ["CSo16UIViewController", "Loan"]
+- !private ["CSo16UIViewController", "NSURL"]
 - !private ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "UIApplication"]
 - !private ["CSo16UIViewController", "UIImage"]
 - ["CSo16UIViewController", "UIImageView"]
 - ["CSo16UIViewController", "UILabel"]
 - ["CSo16UIViewController", "UITextView"]
+- !private ["CSo16UIViewController", "URL"]
+- ["CSo16UIViewController", "call"]
 - ["CSo16UIViewController", "contador"]
 - ["CSo16UIViewController", "data"]
 - !private ["CSo16UIViewController", "definesPresentationContext"]
@@ -608,24 +793,35 @@ depends-member:
 - !private ["CSo16UIViewController", "navigationController"]
 - !private ["CSo16UIViewController", "navigationItem"]
 - ["CSo16UIViewController", "nome"]
+- !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "qtd"]
 - ["CSo16UIViewController", "titulo"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
+- ["V10Foundation3URL", "deinit"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "characters"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "characters"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "characters"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "characters"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
 - !private ["Ps26_ExpressibleByImageLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "characters"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "DateFormatter"]
 - ["Ps9_Hashable", "Loan"]
+- !private ["Ps9_Hashable", "NSURL"]
 - !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "UIApplication"]
 - !private ["Ps9_Hashable", "UIImage"]
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "call"]
+- !private ["Ps9_Hashable", "characters"]
 - ["Ps9_Hashable", "contador"]
 - ["Ps9_Hashable", "data"]
 - !private ["Ps9_Hashable", "date"]
@@ -643,7 +839,11 @@ depends-member:
 - !private ["Ps9_Hashable", "navigationController"]
 - !private ["Ps9_Hashable", "navigationItem"]
 - ["Ps9_Hashable", "nome"]
+- !private ["Ps9_Hashable", "openURL"]
+- !private ["Ps9_Hashable", "phoneNumber"]
+- !private ["Ps9_Hashable", "print"]
 - ["Ps9_Hashable", "qtd"]
+- !private ["Ps9_Hashable", "shared"]
 - !private ["Ps9_Hashable", "string"]
 - !private ["Ps9_Hashable", "text"]
 - !private ["Ps9_Hashable", "title"]
@@ -651,17 +851,27 @@ depends-member:
 - ["Ps9_Hashable", "viewDidLoad"]
 - ["Ps9_Hashable", ""]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "characters"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
 depends-nominal:
 - "Ps9AnyObject"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
 - "Sb"
 - !private "PSo15CALayerDelegate"
 - !private "PSo15CNKeyDescriptor"
 - "Ps7CVarArg"
+- "Vs9Character"
+- !private "VSS13CharacterView"
+- !private "Vs11ClosedRange"
+- !private "Ps10Collection"
 - !private "Ps10Comparable"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
 - "Ps28CustomDebugStringConvertible"
 - !private "Ps29CustomPlaygroundQuickLookable"
-- !private "Ps17CustomReflectable"
+- "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "V10Foundation4Data"
 - "V10Foundation4Date"
@@ -670,13 +880,18 @@ depends-nominal:
 - "Ps9Equatable"
 - !private "Ps27ExpressibleByBooleanLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps23ExpressibleByNilLiteral"
 - !private "Ps32ExpressibleByStringInterpolation"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
 - !private "CSo9Formatter"
 - "Ps8Hashable"
 - "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
 - "Si"
+- !private "Ps16IteratorProtocol"
 - "C10Devolve_Ai4Loan"
 - !private "Ps25LosslessStringConvertible"
 - !private "Ps10MirrorPath"
@@ -690,13 +905,19 @@ depends-nominal:
 - "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
+- "CSo5NSURL"
 - "Sq"
+- !private "Vs5Range"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps8Sequence"
 - "SS"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
+- "CSo13UIApplication"
 - "PSo18UIContentContainer"
 - !private "PSo30UIContentSizeCategoryAdjusting"
 - !private "PSo17UICoordinateSpace"
@@ -719,6 +940,7 @@ depends-nominal:
 - "PSo18UITraitEnvironment"
 - !private "CSo6UIView"
 - "CSo16UIViewController"
+- "V10Foundation3URL"
 - !private "Ps37_DefaultCustomPlaygroundQuickLookable"
 - !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
 - !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
@@ -729,6 +951,7 @@ depends-nominal:
 - !private "Ps35_HasCustomAnyHashableRepresentation"
 - "Ps9_Hashable"
 - !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
@@ -742,4 +965,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Contacts.swiftmodule"
-interface-hash: "22295d01672e66bf73d5b9db91fced4b"
+interface-hash: "d7dee6d91ce0a2482a27d5d66ba77263"

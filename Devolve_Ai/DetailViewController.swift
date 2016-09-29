@@ -65,4 +65,26 @@ class DetailViewController: UIViewController {
     }
     */
 
+    @IBAction func call(_ sender: AnyObject) {
+        var editedPhoneNumber = ""
+        if emprestimo.phoneNumber != "" {
+            
+            for i in emprestimo.phoneNumber!.characters {
+                
+                switch (i){
+                case "0","1","2","3","4","5","6","7","8","9" : editedPhoneNumber = editedPhoneNumber + String(i)
+                default : print("Removed invalid character.")
+                }
+            }
+            
+            let phone = "tel://" + editedPhoneNumber
+            let url = NSURL(string: phone)
+            if let url = url {
+               UIApplication.shared.openURL(url as URL)
+            } else {
+                print("There was an error")
+            }
+        } 
+        
+    }
 }

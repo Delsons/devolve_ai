@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34084FCE1D9D9E8F0095F821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34084FCD1D9D9E8F0095F821 /* Main.storyboard */; };
+		34084FD01D9DA5E30095F821 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34084FCF1D9DA5E30095F821 /* HeaderTableViewCell.swift */; };
+		34084FD21D9DB05D0095F821 /* ComoFuncionaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34084FD11D9DB05D0095F821 /* ComoFuncionaViewController.swift */; };
+		34084FD41D9DB4330095F821 /* TermoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34084FD31D9DB4330095F821 /* TermoViewController.swift */; };
 		3439C4E71D9B309B00109505 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3439C4E61D9B309B00109505 /* ContactTableViewCell.swift */; };
+		343B41FD1D9DBB60006A855D /* PoliticaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B41FC1D9DBB60006A855D /* PoliticaViewController.swift */; };
 		3458B90C1D91CC7200D73566 /* GradientVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458B90B1D91CC7200D73566 /* GradientVisualEffectView.swift */; };
 		34663D061D89AE79009EADE8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34663D051D89AE79009EADE8 /* DetailViewController.swift */; };
 		34663D081D89B8E7009EADE8 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34663D071D89B8E7009EADE8 /* AddViewController.swift */; };
@@ -16,7 +21,6 @@
 		349EB5191D885E5C0021A562 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB5181D885E5C0021A562 /* SettingsViewController.swift */; };
 		349EB51B1D8880750021A562 /* ObjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EB51A1D8880750021A562 /* ObjectTableViewCell.swift */; };
 		34BEFAA81D872A4D0045E5DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BEFAA71D872A4D0045E5DE /* AppDelegate.swift */; };
-		34BEFAAF1D872A4D0045E5DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34BEFAAD1D872A4D0045E5DE /* Main.storyboard */; };
 		34BEFAB11D872A4D0045E5DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BEFAB01D872A4D0045E5DE /* Assets.xcassets */; };
 		34BEFAB41D872A4D0045E5DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34BEFAB21D872A4D0045E5DE /* LaunchScreen.storyboard */; };
 		34BEFABF1D872A4D0045E5DE /* Devolve_AiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BEFABE1D872A4D0045E5DE /* Devolve_AiTests.swift */; };
@@ -24,6 +28,8 @@
 		34D117B11D92C37F00CCF2A7 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D117B01D92C37F00CCF2A7 /* Utilities.swift */; };
 		34D117B81D931F4500CCF2A7 /* Devolve_Ai.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34D117B61D931F4500CCF2A7 /* Devolve_Ai.xcdatamodeld */; };
 		34D117BA1D93F89500CCF2A7 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D117B91D93F89500CCF2A7 /* Loan.swift */; };
+		34E76BC51D9D88B2007D4FA4 /* ConfigTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E76BC41D9D88B2007D4FA4 /* ConfigTableViewCell.swift */; };
+		34E76BC71D9D88DF007D4FA4 /* ConfigTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E76BC61D9D88DF007D4FA4 /* ConfigTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34084FCD1D9D9E8F0095F821 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		34084FCF1D9DA5E30095F821 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		34084FD11D9DB05D0095F821 /* ComoFuncionaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComoFuncionaViewController.swift; sourceTree = "<group>"; };
+		34084FD31D9DB4330095F821 /* TermoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermoViewController.swift; sourceTree = "<group>"; };
 		3439C4E61D9B309B00109505 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		343B41FC1D9DBB60006A855D /* PoliticaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoliticaViewController.swift; sourceTree = "<group>"; };
 		3458B90B1D91CC7200D73566 /* GradientVisualEffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientVisualEffectView.swift; sourceTree = "<group>"; };
 		34663D051D89AE79009EADE8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		34663D071D89B8E7009EADE8 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +65,6 @@
 		349EB51A1D8880750021A562 /* ObjectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectTableViewCell.swift; sourceTree = "<group>"; };
 		34BEFAA41D872A4D0045E5DE /* Devolve_Ai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devolve_Ai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BEFAA71D872A4D0045E5DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34BEFAAE1D872A4D0045E5DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34BEFAB01D872A4D0045E5DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34BEFAB31D872A4D0045E5DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34BEFAB51D872A4D0045E5DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,6 +77,8 @@
 		34D117B01D92C37F00CCF2A7 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		34D117B71D931F4500CCF2A7 /* Devolve_Ai.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Devolve_Ai.xcdatamodel; sourceTree = "<group>"; };
 		34D117B91D93F89500CCF2A7 /* Loan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
+		34E76BC41D9D88B2007D4FA4 /* ConfigTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigTableViewCell.swift; sourceTree = "<group>"; };
+		34E76BC61D9D88DF007D4FA4 /* ConfigTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,8 @@
 			children = (
 				349EB51A1D8880750021A562 /* ObjectTableViewCell.swift */,
 				3439C4E61D9B309B00109505 /* ContactTableViewCell.swift */,
+				34E76BC41D9D88B2007D4FA4 /* ConfigTableViewCell.swift */,
+				34084FCF1D9DA5E30095F821 /* HeaderTableViewCell.swift */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -109,6 +123,7 @@
 				34D117B61D931F4500CCF2A7 /* Devolve_Ai.xcdatamodeld */,
 				3458B90B1D91CC7200D73566 /* GradientVisualEffectView.swift */,
 				349EB5181D885E5C0021A562 /* SettingsViewController.swift */,
+				34084FCD1D9D9E8F0095F821 /* Main.storyboard */,
 				34BEFAA61D872A4D0045E5DE /* Devolve_Ai */,
 				34BEFABD1D872A4D0045E5DE /* Devolve_AiTests */,
 				34BEFAC81D872A4D0045E5DE /* Devolve_AiUITests */,
@@ -130,7 +145,6 @@
 			isa = PBXGroup;
 			children = (
 				34BEFAA71D872A4D0045E5DE /* AppDelegate.swift */,
-				34BEFAAD1D872A4D0045E5DE /* Main.storyboard */,
 				34D117B41D931EE900CCF2A7 /* Model */,
 				34D117B01D92C37F00CCF2A7 /* Utilities.swift */,
 				34D117B51D931EFD00CCF2A7 /* ViewController */,
@@ -172,9 +186,13 @@
 			children = (
 				34663D071D89B8E7009EADE8 /* AddViewController.swift */,
 				34663D051D89AE79009EADE8 /* DetailViewController.swift */,
-				3439C4E81D9B30A200109505 /* Cell */,
 				349EB5141D885D6B0021A562 /* ListTableViewController.swift */,
 				349EB5161D885DC30021A562 /* ContactViewController.swift */,
+				34E76BC61D9D88DF007D4FA4 /* ConfigTableViewController.swift */,
+				34084FD11D9DB05D0095F821 /* ComoFuncionaViewController.swift */,
+				34084FD31D9DB4330095F821 /* TermoViewController.swift */,
+				343B41FC1D9DBB60006A855D /* PoliticaViewController.swift */,
+				3439C4E81D9B30A200109505 /* Cell */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -292,9 +310,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34084FCE1D9D9E8F0095F821 /* Main.storyboard in Resources */,
 				34BEFAB41D872A4D0045E5DE /* LaunchScreen.storyboard in Resources */,
 				34BEFAB11D872A4D0045E5DE /* Assets.xcassets in Resources */,
-				34BEFAAF1D872A4D0045E5DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,9 +338,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3439C4E71D9B309B00109505 /* ContactTableViewCell.swift in Sources */,
+				34084FD01D9DA5E30095F821 /* HeaderTableViewCell.swift in Sources */,
+				34E76BC71D9D88DF007D4FA4 /* ConfigTableViewController.swift in Sources */,
+				343B41FD1D9DBB60006A855D /* PoliticaViewController.swift in Sources */,
 				349EB51B1D8880750021A562 /* ObjectTableViewCell.swift in Sources */,
+				34084FD41D9DB4330095F821 /* TermoViewController.swift in Sources */,
 				349EB5151D885D6B0021A562 /* ListTableViewController.swift in Sources */,
 				34663D081D89B8E7009EADE8 /* AddViewController.swift in Sources */,
+				34084FD21D9DB05D0095F821 /* ComoFuncionaViewController.swift in Sources */,
+				34E76BC51D9D88B2007D4FA4 /* ConfigTableViewCell.swift in Sources */,
 				34D117BA1D93F89500CCF2A7 /* Loan.swift in Sources */,
 				3458B90C1D91CC7200D73566 /* GradientVisualEffectView.swift in Sources */,
 				34BEFAA81D872A4D0045E5DE /* AppDelegate.swift in Sources */,
@@ -366,14 +390,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		34BEFAAD1D872A4D0045E5DE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34BEFAAE1D872A4D0045E5DE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		34BEFAB21D872A4D0045E5DE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

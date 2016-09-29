@@ -6,19 +6,19 @@ provides-nominal:
 provides-member:
 - ["C10Devolve_Ai19ObjectTableViewCell", ""]
 provides-dynamic-lookup:
-- "nameLabel"
 - "descricaoLabel"
+- "awakeFromNib"
+- "nameLabel"
+- "setSelected"
+- "dataLabel"
 - "bgImage"
 - "tituloLabel"
-- "dataLabel"
-- "awakeFromNib"
-- "setSelected"
 depends-top-level:
 - "UILabel"
-- "ObjectTableViewCell"
-- "UITableViewCell"
 - "UITextView"
 - "Bool"
+- "ObjectTableViewCell"
+- "UITableViewCell"
 - "UIImageView"
 depends-member:
 - ["Ps9AnyObject", "awakeFromNib"]
