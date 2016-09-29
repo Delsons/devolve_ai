@@ -1,0 +1,18 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "3424bb993452a726b2ad1f20ff02af37"
+build_time: [528409604, 512040000]
+inputs:
+  "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/ContactTableViewCell.swift": [528333694, 0]
+  "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/ObjectTableViewCell.swift": [527967073, 0]
+  "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/ListTableViewController.swift": [528248226, 0]
+  "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/AddViewController.swift": [528334572, 0]
+  "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/Loan.swift": [528326998, 0]
+  "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/GradientVisualEffectView.swift": [527716765, 0]
+  "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/AppDelegate.swift": [527806869, 0]
+  "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/DetailViewController.swift": [528248343, 0]
+  "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/ContactViewController.swift": [528409600, 0]
+  "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/Utilities.swift": [527780046, 0]
+  "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/SettingsViewController.swift": [527098715, 0]
+  "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/build/Devolve_Ai.build/Debug-iphonesimulator/Devolve_Ai.build/DerivedSources/CoreDataGenerated/Devolve_Ai/EmprestimoMO+CoreDataClass.swift": [528331926, 0]
+  "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/build/Devolve_Ai.build/Debug-iphonesimulator/Devolve_Ai.build/DerivedSources/CoreDataGenerated/Devolve_Ai/EmprestimoMO+CoreDataProperties.swift": [528331926, 0]
+  "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/build/Devolve_Ai.build/Debug-iphonesimulator/Devolve_Ai.build/DerivedSources/CoreDataGenerated/Devolve_Ai/Devolve_Ai+CoreDataModel.swift": [528331926, 0]
