@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
 options: "3e7534ba6b8fb8fbeddf808e149b8cc2"
-build_time: [528498952, 193062000]
+build_time: [528566523, 310834000]
 inputs:
   "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/ContactTableViewCell.swift": [528333694, 0]
   "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/HeaderTableViewCell.swift": [528494529, 0]
@@ -8,7 +8,7 @@ inputs:
   "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/PoliticaViewController.swift": [528498805, 0]
   "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/ObjectTableViewCell.swift": [527967073, 0]
   "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/TermoViewController.swift": [528496976, 0]
-  "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/ListTableViewController.swift": [528484421, 0]
+  "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/ListTableViewController.swift": [528566523, 0]
   "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/AddViewController.swift": [528490563, 0]
   "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/ComoFuncionaViewController.swift": [528496015, 0]
   "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/ConfigTableViewCell.swift": [528489018, 0]
@@ -16,7 +16,7 @@ inputs:
   "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/GradientVisualEffectView.swift": [527716765, 0]
   "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/AppDelegate.swift": [527806869, 0]
   "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/DetailViewController.swift": [528474578, 0]
-  "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/ContactViewController.swift": [528484232, 0]
+  "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/ContactViewController.swift": [528566388, 0]
   "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/Devolve_Ai/Utilities.swift": [527780046, 0]
   "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/SettingsViewController.swift": [527098715, 0]
   "/Users/delsonsilveira/Documents/Projects/iOS/Devolve_Ai/build/Devolve_Ai.build/Debug-iphoneos/Devolve_Ai.build/DerivedSources/CoreDataGenerated/Devolve_Ai/EmprestimoMO+CoreDataClass.swift": [528326969, 0]

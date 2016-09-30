@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>R3C9W7W45P.com.Kongros.Devolve-Ai</string>
+	<string>CLCJW5993D.DevolveAi</string>
 	<key>com.apple.developer.team-identifier</key>
-	<string>R3C9W7W45P</string>
+	<string>CLCJW5993D</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>R3C9W7W45P.com.Kongros.Devolve-Ai</string>
+		<string>CLCJW5993D.DevolveAi</string>
 	</array>
 </dict>
 </plist>

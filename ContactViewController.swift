@@ -47,47 +47,52 @@
                     if let fetchedObjects = fetchResultController.fetchedObjects {
                         emprestimos = fetchedObjects
                         
-                        var contador:Int = 0
-                        var posicao:Int = 0
-                        contatos = []
-                        total = []
                         
-                        if emprestimos.count >= 0 {
-                            contatos.append(emprestimos[0])
-                            print("Posicao:0")
-                            print("Contatos.append:\(emprestimos[0].name)")
-                            contador = 1
-                        }
+                        if emprestimos.count != 0 {
                         
-                        for contato in emprestimos {
+                            var contador:Int = 0
+                            var posicao:Int = 0
+                            contatos = []
+                            total = []
                             
+                            if emprestimos.count >= 0 {
+                                contatos.append(emprestimos[0])
+                                print("Posicao:0")
+                                print("Contatos.append:\(emprestimos[0].name)")
+                                contador = 1
+                            }
                             
-                            print("contato: \(contato.phone)")
-                            print("emprestimo \(emprestimos[posicao].phone)")
-                            print("posicao: \(posicao)")
-                            
-                            
-                            if (posicao + 1) < emprestimos.count {
-                                if contato.phone == emprestimos[posicao+1].phone {
-                                    contador = contador + 1
-                                    posicao = posicao + 1
-                                } else {
-                                    total.append(contador)
-                                    contatos.append(emprestimos[posicao+1])
-                                    print("Posicao:\(posicao)")
-                                    print("Contatos.append:\(emprestimos[posicao+1].name)")
-
-                                    contador = 1
-                                    posicao = posicao + 1
+                            for contato in emprestimos {
+                                
+                                
+                                print("contato: \(contato.phone)")
+                                print("emprestimo \(emprestimos[posicao].phone)")
+                                print("posicao: \(posicao)")
+                                
+                                
+                                if (posicao + 1) < emprestimos.count {
+                                    if contato.phone == emprestimos[posicao+1].phone {
+                                        contador = contador + 1
+                                        posicao = posicao + 1
+                                    } else {
+                                        total.append(contador)
+                                        contatos.append(emprestimos[posicao+1])
+                                        print("Posicao:\(posicao)")
+                                        print("Contatos.append:\(emprestimos[posicao+1].name)")
+                                        
+                                        contador = 1
+                                        posicao = posicao + 1
+                                    }
+                                    
                                 }
                                 
                             }
-                            
-                        }
-                        total.append(contador)
-                        tableView.reloadData()
+                            total.append(contador)
+                            tableView.reloadData()
 
-                        
+                        } else {
+                            showMessage(title:"Mensagem", texto:"Você ainda não emprestou nenhum item")
+                        }
                     }
                 } catch {
                     print(error)
@@ -252,9 +257,15 @@
         
         
         
+        // MARK: - Alert
         
-        
-        
+        func showMessage(title:String, texto:String) {
+            let alertController = UIAlertController(title: title,
+                                                    message: texto, preferredStyle: UIAlertControllerStyle.alert)
+            alertController.addAction(UIAlertAction(title: "OK", style:
+                UIAlertActionStyle.default, handler: nil))
+            present(alertController, animated: true, completion: nil)
+        }
         
 
         

@@ -242,6 +242,7 @@ SWIFT_CLASS("_TtC10Devolve_Ai21ContactViewController")
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (void)updateSearchResultsForSearchController:(UISearchController * _Nonnull)searchController;
 - (void)filterContentFor:(NSString * _Nonnull)searchText;
+- (void)showMessageWithTitle:(NSString * _Nonnull)title texto:(NSString * _Nonnull)texto;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -333,6 +334,7 @@ SWIFT_CLASS("_TtC10Devolve_Ai23ListTableViewController")
 - (void)updateSearchResultsForSearchController:(UISearchController * _Nonnull)searchController;
 - (void)filterContentFor:(NSString * _Nonnull)searchText;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (void)showMessageWithTitle:(NSString * _Nonnull)title texto:(NSString * _Nonnull)texto;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -373,6 +375,15 @@ SWIFT_CLASS("_TtC10Devolve_Ai19ObjectTableViewCell")
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10Devolve_Ai22PoliticaViewController")
+@interface PoliticaViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 

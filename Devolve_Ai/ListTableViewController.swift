@@ -65,6 +65,12 @@ class ListTableViewController: UITableViewController, NSFetchedResultsController
                 try fetchResultController.performFetch()
                 if let fetchedObjects = fetchResultController.fetchedObjects {
                     emprestimos = fetchedObjects
+                    
+                    if emprestimos.count == 0 {
+                        showMessage(title:"Mensagem", texto:"Você não tem nenhum objeto emprestado")
+                    }
+                    
+                    
                 }
             } catch {
                 print(error)
@@ -344,6 +350,18 @@ class ListTableViewController: UITableViewController, NSFetchedResultsController
                 
             }
         }
+    }
+    
+    
+    
+    // MARK: - Alert
+    
+    func showMessage(title:String, texto:String) {
+        let alertController = UIAlertController(title: title,
+                                                message: texto, preferredStyle: UIAlertControllerStyle.alert)
+        alertController.addAction(UIAlertAction(title: "OK", style:
+            UIAlertActionStyle.default, handler: nil))
+        present(alertController, animated: true, completion: nil)
     }
     
 

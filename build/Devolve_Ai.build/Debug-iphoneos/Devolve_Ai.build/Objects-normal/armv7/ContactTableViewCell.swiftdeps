@@ -1,0 +1,266 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ContactTableViewCell"
+provides-nominal:
+- "C10Devolve_Ai20ContactTableViewCell"
+provides-member:
+- ["C10Devolve_Ai20ContactTableViewCell", ""]
+provides-dynamic-lookup:
+- "nome"
+- "awakeFromNib"
+- "contactImageData"
+- "setSelected"
+- "itens"
+depends-top-level:
+- "ContactTableViewCell"
+- "UILabel"
+- "Bool"
+- "UITableViewCell"
+- "UIImageView"
+depends-member:
+- ["Ps9AnyObject", "awakeFromNib"]
+- ["Ps9AnyObject", "contactImageData"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "itens"]
+- ["Ps9AnyObject", "nome"]
+- ["Ps9AnyObject", "setSelected"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- ["PSo15CALayerDelegate", "awakeFromNib"]
+- ["PSo15CALayerDelegate", "contactImageData"]
+- !private ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", "itens"]
+- ["PSo15CALayerDelegate", "nome"]
+- ["PSo15CALayerDelegate", "setSelected"]
+- ["PSo15CALayerDelegate", ""]
+- ["Ps7CVarArg", "awakeFromNib"]
+- ["Ps7CVarArg", "contactImageData"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "itens"]
+- ["Ps7CVarArg", "nome"]
+- ["Ps7CVarArg", "setSelected"]
+- ["Ps7CVarArg", ""]
+- ["C10Devolve_Ai20ContactTableViewCell", "Bool"]
+- ["C10Devolve_Ai20ContactTableViewCell", "UIImageView"]
+- ["C10Devolve_Ai20ContactTableViewCell", "UILabel"]
+- ["C10Devolve_Ai20ContactTableViewCell", "awakeFromNib"]
+- ["C10Devolve_Ai20ContactTableViewCell", "contactImageData"]
+- ["C10Devolve_Ai20ContactTableViewCell", "deinit"]
+- ["C10Devolve_Ai20ContactTableViewCell", "init"]
+- ["C10Devolve_Ai20ContactTableViewCell", "itens"]
+- ["C10Devolve_Ai20ContactTableViewCell", "nome"]
+- ["C10Devolve_Ai20ContactTableViewCell", "setSelected"]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- ["Ps28CustomDebugStringConvertible", "contactImageData"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "itens"]
+- ["Ps28CustomDebugStringConvertible", "nome"]
+- ["Ps28CustomDebugStringConvertible", "setSelected"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- ["Ps23CustomStringConvertible", "contactImageData"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "itens"]
+- ["Ps23CustomStringConvertible", "nome"]
+- ["Ps23CustomStringConvertible", "setSelected"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "awakeFromNib"]
+- ["Ps9Equatable", "contactImageData"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "itens"]
+- ["Ps9Equatable", "nome"]
+- ["Ps9Equatable", "setSelected"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "awakeFromNib"]
+- ["Ps8Hashable", "contactImageData"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "itens"]
+- ["Ps8Hashable", "nome"]
+- ["Ps8Hashable", "setSelected"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "contactImageData"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "itens"]
+- ["PSo8NSCoding", "nome"]
+- ["PSo8NSCoding", "setSelected"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "contactImageData"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "itens"]
+- ["CSo8NSObject", "nome"]
+- ["CSo8NSObject", "setSelected"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "contactImageData"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "itens"]
+- ["PSo16NSObjectProtocol", "nome"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "contactImageData"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "itens"]
+- ["PSo29UIAccessibilityIdentification", "nome"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "contactImageData"]
+- !private ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "itens"]
+- ["PSo12UIAppearance", "nome"]
+- ["PSo12UIAppearance", "setSelected"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "contactImageData"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "itens"]
+- ["PSo21UIAppearanceContainer", "nome"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "contactImageData"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "itens"]
+- ["PSo17UICoordinateSpace", "nome"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "contactImageData"]
+- !private ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "itens"]
+- ["PSo13UIDynamicItem", "nome"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "contactImageData"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "itens"]
+- ["PSo18UIFocusEnvironment", "nome"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo11UIFocusItem", "awakeFromNib"]
+- ["PSo11UIFocusItem", "contactImageData"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", "itens"]
+- ["PSo11UIFocusItem", "nome"]
+- ["PSo11UIFocusItem", "setSelected"]
+- ["PSo11UIFocusItem", ""]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- ["PSo27UIGestureRecognizerDelegate", "contactImageData"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "itens"]
+- ["PSo27UIGestureRecognizerDelegate", "nome"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "contactImageData"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "itens"]
+- ["CSo11UIResponder", "nome"]
+- ["CSo11UIResponder", "setSelected"]
+- ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
+- ["PSo30UIResponderStandardEditActions", "contactImageData"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "itens"]
+- ["PSo30UIResponderStandardEditActions", "nome"]
+- ["PSo30UIResponderStandardEditActions", "setSelected"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "contactImageData"]
+- ["CSo15UITableViewCell", "deinit"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "itens"]
+- ["CSo15UITableViewCell", "nome"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", ""]
+- ["OSC20UITableViewCellStyle", "deinit"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "contactImageData"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "itens"]
+- ["PSo18UITraitEnvironment", "nome"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "contactImageData"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "itens"]
+- ["CSo6UIView", "nome"]
+- ["CSo6UIView", "setSelected"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "contactImageData"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "itens"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "nome"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "setSelected"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- ["Ps9_Hashable", "awakeFromNib"]
+- ["Ps9_Hashable", "contactImageData"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "itens"]
+- ["Ps9_Hashable", "nome"]
+- ["Ps9_Hashable", "setSelected"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "C10Devolve_Ai20ContactTableViewCell"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "SQ"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo15UITableViewCell"
+- "OSC20UITableViewCellStyle"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Contacts.swiftmodule"
+interface-hash: "21fcaf5aa487dd013f4e67d389f0bef0"
